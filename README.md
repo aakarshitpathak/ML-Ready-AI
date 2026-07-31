@@ -74,7 +74,6 @@ Validated across real-world datasets spanning **healthcare, finance, retail, sol
 |---|---|
 | ![Completed](screenshots/07-project-completed.jpg) | ![Deliverables](screenshots/08-final-deliverables.jpg) |
 
-> Place the `screenshots/` folder (included alongside this README) at your repo root, or update the paths above if you store it elsewhere.
 
 ---
 
@@ -193,8 +192,6 @@ A quick orientation, not an exhaustive file list:
 - **`models/`** — Saved trained models (`.pkl`)
 - **`database.db`** — SQLite store for session management
 - **`requirements.txt`** — Python dependencies
-
-> Update this list if your real structure differs — a quick orientation like this is easier to keep accurate than a full file tree.
 
 ---
 
