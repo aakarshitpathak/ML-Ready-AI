@@ -57,24 +57,21 @@ Validated across real-world datasets spanning **healthcare, finance, retail, sol
 ---
 
 ## 🖼️ Screenshots
-
 | Landing Page | Tech Stack |
 |---|---|
-| ![Landing](screenshots/01-landing-hero.jpg) | ![Tech Stack](screenshots/02-tech-stack.jpg) |
+| ![Landing](Screenshots/01-landing-hero.jpg) | ![Tech Stack](Screenshots/02-tech-stack.jpg) |
 
 | How It Works | Login / Signup |
 |---|---|
-| ![How it works](screenshots/03-how-it-works.jpg) | ![Login](screenshots/04-login-signup.jpg) |
+| ![How it works](Screenshots/03-how-it-works.jpg) | ![Login](Screenshots/04-login-signup.jpg) |
 
 | Upload Dataset | Training Results |
 |---|---|
-| ![Upload](screenshots/05-upload-dataset.jpg) | ![Training Results](screenshots/06-training-results.jpg) |
+| ![Upload](Screenshots/05-upload-dataset.jpg) | ![Training Results](Screenshots/06-training-results.jpg) |
 
 | Project Completed | Final Deliverables |
 |---|---|
-| ![Completed](screenshots/07-project-completed.jpg) | ![Deliverables](screenshots/08-final-deliverables.jpg) |
-
-
+| ![Completed](Screenshots/07-project-completed.jpg) | ![Deliverables](Screenshots/08-final-deliverables.jpg) |
 ---
 
 ## 🏗️ How It Works
