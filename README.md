@@ -57,23 +57,25 @@ Validated across real-world datasets spanning **healthcare, finance, retail, sol
 ---
 
 ## 🖼️ Screenshots
-
 | Landing Page | Tech Stack |
 |---|---|
-| ![Landing](screenshots/01-landing-hero.jpg) | ![Tech Stack](screenshots/02-tech-stack.jpg) |
+| ![Landing](Screenshots/01-landing-hero.jpg) | ![Tech Stack](Screenshots/02-tech-stack.png) |
 
 | How It Works | Login / Signup |
 |---|---|
-| ![How it works](screenshots/03-how-it-works.jpg) | ![Login](screenshots/04-login-signup.jpg) |
+| ![How it works](Screenshots/03-how-it-works.png) | ![Login](Screenshots/04-login-signup.jpg) |
 
-| Upload Dataset | Training Results |
+| Upload Dataset | Machine Learning Setup |
 |---|---|
-| ![Upload](screenshots/05-upload-dataset.jpg) | ![Training Results](screenshots/06-training-results.jpg) |
+| ![Upload](Screenshots/05-upload-dataset.jpg) | ![ML Setup](Screenshots/06-Machine-Learning-Setup.png) |
 
-| Project Completed | Final Deliverables |
+| Training Results | Project Completed |
 |---|---|
-| ![Completed](screenshots/07-project-completed.jpg) | ![Deliverables](screenshots/08-final-deliverables.jpg) |
+| ![Training Results](Screenshots/07-training-results.jpg) | ![Completed](Screenshots/08-project-completed.jpg) |
 
+| Final Deliverables |
+|---|
+| ![Deliverables](Screenshots/09-final-deliverables.jpg) |
 
 ---
 
