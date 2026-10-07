@@ -4,6 +4,7 @@
 
 import io
 import os
+from datetime import timedelta
 from functools import wraps
 
 import joblib
@@ -38,9 +39,26 @@ app.register_blueprint(api_bp)
 # out of the box, but a real deployment should always set SECRET_KEY.
 app.secret_key = os.environ.get("SECRET_KEY", "mlreadyai_secret_2025_dev_only")
 
-app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///users.db"
+# IMPORTANT: use an ABSOLUTE path for the SQLite file, anchored to this
+# file's own directory - not a bare relative "users.db". A relative path
+# is resolved against the process's current working directory, which
+# changes depending on where/how you launch the app (a different
+# terminal tab, a different folder opened in VS Code, etc.). That means
+# a relative path can silently create a brand-new, empty database in a
+# different location - making existing accounts "disappear" even though
+# nothing was actually deleted. Anchoring it here guarantees the app
+# always reads/writes the exact same users.db, no matter how it's run.
+BASE_DIR = os.path.abspath(os.path.dirname(__file__))
+DB_PATH = os.path.join(BASE_DIR, "users.db")
+app.config["SQLALCHEMY_DATABASE_URI"] = f"sqlite:///{DB_PATH}"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 app.config["MAX_CONTENT_LENGTH"] = 50 * 1024 * 1024
+
+# Keep people logged in across browser restarts for 30 days, instead of
+# the session silently expiring the moment the browser closes. This only
+# takes effect on sessions explicitly marked permanent (see the login
+# route below) - Flask defaults to a browser-session-only cookie otherwise.
+app.config["PERMANENT_SESSION_LIFETIME"] = timedelta(days=30)
 
 db = SQLAlchemy(app)
 
@@ -100,6 +118,7 @@ def login():
         user = User.query.filter_by(email=email).first()
 
         if user and check_password_hash(user.password, password):
+            session.permanent = True  # keep the login for 30 days, not just this browser session
             session["user_id"] = user.id
             session["user_name"] = user.name
             flash(f"Welcome back, {user.name}!", "success")
