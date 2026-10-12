@@ -54,11 +54,13 @@ app.config["SQLALCHEMY_DATABASE_URI"] = f"sqlite:///{DB_PATH}"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 app.config["MAX_CONTENT_LENGTH"] = 50 * 1024 * 1024
 
-# Keep people logged in across browser restarts for 30 days, instead of
-# the session silently expiring the moment the browser closes. This only
-# takes effect on sessions explicitly marked permanent (see the login
-# route below) - Flask defaults to a browser-session-only cookie otherwise.
-app.config["PERMANENT_SESSION_LIFETIME"] = timedelta(days=30)
+# "Remember Me" session length. This ONLY applies when the person checks
+# "Remember Me" at login (session.permanent = True) - otherwise Flask's
+# default behavior holds and the session ends when the browser closes.
+# 14 days balances convenience against risk on a shared/borrowed device -
+# long enough to be genuinely useful, short enough not to leave a
+# month-long standing login lying around.
+app.config["PERMANENT_SESSION_LIFETIME"] = timedelta(days=14)
 
 db = SQLAlchemy(app)
 
@@ -118,7 +120,12 @@ def login():
         user = User.query.filter_by(email=email).first()
 
         if user and check_password_hash(user.password, password):
-            session.permanent = True  # keep the login for 30 days, not just this browser session
+            # "Remember Me" checked -> stay logged in for PERMANENT_SESSION_LIFETIME.
+            # Unchecked (default) -> ordinary browser-session cookie, gone when
+            # the browser closes. This is opt-in persistence, not forced on
+            # everyone, so convenience doesn't come at the cost of security
+            # by default.
+            session.permanent = bool(request.form.get("remember_me"))
             session["user_id"] = user.id
             session["user_name"] = user.name
             flash(f"Welcome back, {user.name}!", "success")
