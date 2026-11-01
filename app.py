@@ -749,6 +749,12 @@ def final_dashboard():
 
 
 if __name__ == "__main__":
-    # Debug mode is controlled by an env var so it's off by default in
-    # production but can still be turned on locally with FLASK_DEBUG=1.
-    app.run(debug=os.environ.get("FLASK_DEBUG", "0") == "1")
+    # Debug mode is controlled by an env var.
+    # Render requires the application to bind to 0.0.0.0.
+    port = int(os.environ.get("PORT", 10000))
+
+    app.run(
+        host="0.0.0.0",
+        port=port,
+        debug=os.environ.get("FLASK_DEBUG", "0") == "1"
+    )
