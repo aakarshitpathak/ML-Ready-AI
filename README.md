@@ -293,3 +293,22 @@ This allowed preprocessing logic, UI flow, and model performance to evolve itera
 ## 📄 License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+
+
+---
+
+## 🚀 Deploying to Render
+
+1. Push the project to GitHub and create a **Web Service** on Render (or use the included `render.yaml`).
+2. **Build command:** `pip install -r requirements.txt`
+3. **Start command:** `gunicorn app:app --workers 1 --threads 4 --timeout 180 --bind 0.0.0.0:$PORT`
+   (`python app.py` also works now — it binds to `0.0.0.0` and the `PORT` Render provides.)
+4. Add the environment variable `SECRET_KEY` (any long random string).
+5. **Accounts on free hosting:** Render's free disk is wiped on every deploy/restart, which deletes a SQLite `users.db`. To keep accounts, set `DATABASE_URL` to a free Postgres database (and uncomment `psycopg2-binary` in `requirements.txt`).
+6. Keep **one worker** — the active dataset/model is stored in memory.
+
+## 🔑 Password reset
+
+- Login page → **Forgot password?** → enter your registered email → open the emailed link (valid 1 hour, single use).
+- To send real emails set `MAIL_SERVER`, `MAIL_PORT` (587 or 465), `MAIL_USERNAME`, `MAIL_PASSWORD` (and optionally `MAIL_FROM`). Without them, the reset link is printed in the server console / Render logs.
+- Locked out locally? `python reset_password.py --list` shows registered emails, and `python reset_password.py you@email.com` sets a new password.
