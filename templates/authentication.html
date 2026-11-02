@@ -47,6 +47,14 @@
             <input type="password" name="password" placeholder="Password" required>
         </div>
 
+        <div class="auth-options">
+            <label class="remember-me show-pass">
+                <input type="checkbox" onchange="togglePasswords(this)">
+                <span>Show password</span>
+            </label>
+            <a href="{{ url_for('forgot_password') }}" class="forgot-link">Forgot password?</a>
+        </div>
+
         <label class="remember-me">
             <input type="checkbox" name="remember_me">
             <span>Remember me for 14 days</span>
@@ -68,6 +76,10 @@
     <input type="email" name="email" placeholder="Email" required>
     <input type="password" name="password" placeholder="Password" required>
     <input type="password" name="confirm_password" placeholder="Confirm Password" required>
+    <label class="remember-me show-pass">
+        <input type="checkbox" onchange="togglePasswords(this)">
+        <span>Show password</span>
+    </label>
     <button type="submit" class="auth-btn">Signup</button>
 
     <!-- 👇 Back to login -->
@@ -88,4 +100,5 @@
 
 {% block js %}
 <script src="{{ url_for('static', filename='js/auth.js') }}"></script>
+<script src="{{ url_for('static', filename='js/password-toggle.js') }}"></script>
 {% endblock %}
