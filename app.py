@@ -4,7 +4,9 @@
 
 import io
 import os
+import smtplib
 from datetime import timedelta
+from email.message import EmailMessage
 from functools import wraps
 
 import joblib
@@ -16,6 +18,8 @@ from flask import (
 from flask_sqlalchemy import SQLAlchemy
 from werkzeug.security import generate_password_hash, check_password_hash
 from werkzeug.utils import secure_filename
+from werkzeug.middleware.proxy_fix import ProxyFix
+from itsdangerous import URLSafeTimedSerializer, BadSignature, SignatureExpired
 
 from modules.data_loader import load_dataframe, allowed_file
 from modules.data_summary import get_summary
@@ -33,24 +37,45 @@ from modules.api_routes import api_bp
 
 
 app = Flask(__name__)
+# Render (and most hosts) put a proxy in front of the app. ProxyFix makes
+# url_for(..., _external=True) produce correct https:// links (used by the
+# password-reset email).
+app.wsgi_app = ProxyFix(app.wsgi_app, x_for=1, x_proto=1, x_host=1)
 app.register_blueprint(api_bp)
 # Secret key is read from the environment in production (Render/host dashboard).
 # Falls back to a fixed dev key only for local testing so the app still runs
 # out of the box, but a real deployment should always set SECRET_KEY.
 app.secret_key = os.environ.get("SECRET_KEY", "mlreadyai_secret_2025_dev_only")
 
-# IMPORTANT: use an ABSOLUTE path for the SQLite file, anchored to this
-# file's own directory - not a bare relative "users.db". A relative path
-# is resolved against the process's current working directory, which
-# changes depending on where/how you launch the app (a different
-# terminal tab, a different folder opened in VS Code, etc.). That means
-# a relative path can silently create a brand-new, empty database in a
-# different location - making existing accounts "disappear" even though
-# nothing was actually deleted. Anchoring it here guarantees the app
-# always reads/writes the exact same users.db, no matter how it's run.
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
-DB_PATH = os.path.join(BASE_DIR, "users.db")
-app.config["SQLALCHEMY_DATABASE_URI"] = f"sqlite:///{DB_PATH}"
+
+
+def _resolve_database_uri():
+    """
+    Where user accounts are stored.
+
+    1. DATABASE_URL (e.g. a free Postgres on Render/Neon/Supabase) - the
+       only option that survives redeploys on free hosting.
+    2. DB_DIR - a folder on a persistent disk.
+    3. Default: <project>/instance/users.db. NOTE: Flask-SQLAlchemy 3.x
+       stores a relative "sqlite:///users.db" inside the instance/ folder,
+       so that is where existing local accounts already live. Keep it
+       there so nobody gets locked out.
+    """
+    url = os.environ.get("DATABASE_URL")
+    if url:
+        if url.startswith("postgres://"):
+            url = url.replace("postgres://", "postgresql://", 1)
+        return url
+
+    db_dir = os.environ.get("DB_DIR") or app.instance_path
+    os.makedirs(db_dir, exist_ok=True)
+    return "sqlite:///" + os.path.join(db_dir, "users.db")
+
+
+app.config["SQLALCHEMY_DATABASE_URI"] = _resolve_database_uri()
+app.config["SESSION_COOKIE_SAMESITE"] = "Lax"
+app.config["SESSION_COOKIE_SECURE"] = bool(os.environ.get("RENDER"))  # https-only cookie when hosted on Render
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 app.config["MAX_CONTENT_LENGTH"] = 50 * 1024 * 1024
 
@@ -72,8 +97,50 @@ class User(db.Model):
     password = db.Column(db.String(256), nullable=False)
 
 
+def _migrate_stray_sqlite_users():
+    """
+    An earlier version of this app pointed the database at <project>/users.db,
+    which left existing accounts behind in instance/users.db. If that stray
+    file exists, copy any accounts missing from the real database into it
+    (existing accounts always win), then rename the stray file so this only
+    ever happens once.
+    """
+    import sqlite3
+
+    uri = app.config["SQLALCHEMY_DATABASE_URI"]
+    if not uri.startswith("sqlite:///"):
+        return
+
+    canonical = os.path.abspath(uri.replace("sqlite:///", "", 1))
+    stray = os.path.join(BASE_DIR, "users.db")
+
+    if os.path.abspath(stray) == canonical or not os.path.exists(stray):
+        return
+
+    try:
+        src = sqlite3.connect(stray)
+        rows = src.execute('SELECT name, email, password FROM "user"').fetchall()
+        src.close()
+    except Exception:
+        return  # not an accounts database - leave it alone
+
+    moved = 0
+    for name, email, pw in rows:
+        if not User.query.filter_by(email=email).first():
+            db.session.add(User(name=name, email=email, password=pw))
+            moved += 1
+    db.session.commit()
+
+    try:
+        os.replace(stray, stray + ".migrated")
+    except OSError:
+        pass
+    print(f"[ML Ready AI] Recovered {moved} account(s) from {stray}", flush=True)
+
+
 with app.app_context():
     db.create_all()
+    _migrate_stray_sqlite_users()
 
 
 # ============================================================
@@ -137,6 +204,135 @@ def login():
     if "user_id" in session:
         return redirect(url_for("upload"))
     return render_template("authentication.html")
+
+
+# ============================================================
+# PASSWORD RESET
+# ============================================================
+# Flow: enter registered email -> we send a signed, single-use link that
+# expires in 1 hour -> choose a new password.
+# Email needs SMTP env vars (MAIL_SERVER, MAIL_PORT, MAIL_USERNAME,
+# MAIL_PASSWORD, optional MAIL_FROM). If they are not set, the reset link is
+# printed in the server console / Render logs instead, so the owner of the
+# server can still recover an account.
+
+RESET_TOKEN_MAX_AGE = 60 * 60  # 1 hour
+
+
+def _reset_serializer():
+    return URLSafeTimedSerializer(app.secret_key, salt="mlreadyai-password-reset")
+
+
+def _make_reset_token(user):
+    # "fp" ties the token to the CURRENT password hash, so it stops working
+    # the moment the password changes (single use).
+    return _reset_serializer().dumps({"uid": user.id, "fp": user.password[-16:]})
+
+
+def _load_reset_token(token):
+    try:
+        data = _reset_serializer().loads(token, max_age=RESET_TOKEN_MAX_AGE)
+    except (SignatureExpired, BadSignature):
+        return None
+    user = db.session.get(User, data.get("uid"))
+    if not user or user.password[-16:] != data.get("fp"):
+        return None
+    return user
+
+
+def _mail_configured():
+    return bool(
+        os.environ.get("MAIL_SERVER")
+        and os.environ.get("MAIL_USERNAME")
+        and os.environ.get("MAIL_PASSWORD")
+    )
+
+
+def _send_reset_email(to_email, link):
+    msg = EmailMessage()
+    msg["Subject"] = "Reset your ML Ready AI password"
+    msg["From"] = os.environ.get("MAIL_FROM") or os.environ["MAIL_USERNAME"]
+    msg["To"] = to_email
+    msg.set_content(
+        "Hi,\n\nUse the link below to choose a new ML Ready AI password. "
+        "It expires in 1 hour and can only be used once.\n\n"
+        f"{link}\n\nIf you didn't ask for this, you can ignore this email."
+    )
+
+    host = os.environ["MAIL_SERVER"]
+    port = int(os.environ.get("MAIL_PORT", "587"))
+    user = os.environ["MAIL_USERNAME"]
+    password = os.environ["MAIL_PASSWORD"]
+
+    if port == 465:
+        with smtplib.SMTP_SSL(host, port, timeout=15) as smtp:
+            smtp.login(user, password)
+            smtp.send_message(msg)
+    else:
+        with smtplib.SMTP(host, port, timeout=15) as smtp:
+            smtp.starttls()
+            smtp.login(user, password)
+            smtp.send_message(msg)
+
+
+@app.route("/forgot-password", methods=["GET", "POST"])
+def forgot_password():
+    if request.method == "POST":
+        email = request.form.get("email", "").strip().lower()
+        user = User.query.filter_by(email=email).first()
+
+        if user:
+            link = url_for("reset_password", token=_make_reset_token(user), _external=True)
+            sent = False
+            if _mail_configured():
+                try:
+                    _send_reset_email(user.email, link)
+                    sent = True
+                except Exception as exc:
+                    print(f"[ML Ready AI] Could not send reset email: {exc}", flush=True)
+            if not sent:
+                print(
+                    "\n" + "=" * 60 +
+                    f"\n PASSWORD RESET LINK for {user.email}\n {link}\n"
+                    " (valid for 1 hour)\n" + "=" * 60 + "\n",
+                    flush=True,
+                )
+
+        # Same message whether or not the email exists, so this page can't be
+        # used to find out who has an account.
+        flash("If that email is registered, a password reset link has been sent.", "success")
+        if not _mail_configured():
+            flash("Email sending isn't set up on this server, so the link was "
+                  "printed in the server console / logs.", "success")
+        return redirect(url_for("forgot_password"))
+
+    return render_template("forgot_password.html")
+
+
+@app.route("/reset-password/<token>", methods=["GET", "POST"])
+def reset_password(token):
+    user = _load_reset_token(token)
+    if not user:
+        flash("This reset link is invalid or has expired. Please request a new one.", "error")
+        return redirect(url_for("forgot_password"))
+
+    if request.method == "POST":
+        password = request.form.get("password", "")
+        confirm = request.form.get("confirm_password", "")
+
+        if len(password) < 6:
+            flash("Password must be at least 6 characters.", "error")
+            return redirect(request.url)
+        if password != confirm:
+            flash("Passwords do not match.", "error")
+            return redirect(request.url)
+
+        user.password = generate_password_hash(password)
+        db.session.commit()
+        flash("Password updated! Please log in with your new password.", "success")
+        return redirect(url_for("login"))
+
+    return render_template("reset_password.html")
 
 
 @app.route("/logout")
@@ -749,12 +945,11 @@ def final_dashboard():
 
 
 if __name__ == "__main__":
-    # Debug mode is controlled by an env var.
-    # Render requires the application to bind to 0.0.0.0.
-    port = int(os.environ.get("PORT", 10000))
-
-    app.run(
-        host="0.0.0.0",
-        port=port,
-        debug=os.environ.get("FLASK_DEBUG", "0") == "1"
-    )
+    # Hosts like Render tell the app which port to use via the PORT env var and
+    # need it bound to 0.0.0.0 (not 127.0.0.1) - otherwise the deploy fails
+    # with "No open ports detected". Locally we stay on 127.0.0.1:5000.
+    port = int(os.environ.get("PORT", 5000))
+    host = "0.0.0.0" if os.environ.get("PORT") else "127.0.0.1"
+    # Debug mode is controlled by an env var so it's off by default in
+    # production but can still be turned on locally with FLASK_DEBUG=1.
+    app.run(host=host, port=port, debug=os.environ.get("FLASK_DEBUG", "0") == "1")
