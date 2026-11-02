@@ -175,3 +175,24 @@ form button:hover {
   height: 14px;
   cursor: pointer;
 }
+
+/* ═══ SHOW PASSWORD / FORGOT PASSWORD ═══ */
+.auth-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: -0.4rem 0 0.1rem;
+}
+.auth-options .remember-me { margin: 0; }
+.forgot-link {
+  color: #00e5ff;
+  font-size: 0.82rem;
+  text-decoration: none;
+}
+.forgot-link:hover { text-decoration: underline; }
+.form-box .hint-text {
+  font-size: 0.82rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0 0 0.4rem;
+}
+.form-box h2 { color: white; margin: 0 0 0.3rem; }
