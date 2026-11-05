@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: ml-ready-ai
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    # ONE worker on purpose: the app keeps the active dataset/model in memory,
+    # so multiple worker processes would not see each other's data.
+    startCommand: gunicorn app:app --workers 1 --threads 4 --timeout 180 --bind 0.0.0.0:$PORT
+    envVars:
+      - key: SECRET_KEY
+        generateValue: true
+      # Optional - "Forgot password" emails (otherwise the link is printed in the logs):
+      #   MAIL_SERVER, MAIL_PORT, MAIL_USERNAME, MAIL_PASSWORD, MAIL_FROM
+      # Optional - keep accounts across redeploys (free Render disk is wiped on every deploy):
+      #   DATABASE_URL  (a free Postgres from Render / Neon / Supabase)
