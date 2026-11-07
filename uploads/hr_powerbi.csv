@@ -1,0 +1,1471 @@
+EmployeeNumber,Age,Department,JobRole,OverTime,MonthlyIncome,Salary_Band,JobSatisfaction,WorkLifeBalance,EnvironmentSatisfaction,YearsAtCompany,TotalWorkingYears,Attrition_Flag,Attrition_Probability,Risk_Level
+1,41,Sales,Sales Executive,Yes,5993,Mid,4,1,2,6,8,1,0.906,High
+2,49,Research & Development,Research Scientist,No,5130,Mid,2,3,3,10,10,0,0.107,Low
+4,37,Research & Development,Laboratory Technician,Yes,2090,Low,3,3,4,0,7,1,0.851,High
+5,33,Research & Development,Research Scientist,Yes,2909,Low,3,3,4,8,8,0,0.528,Medium
+7,27,Research & Development,Laboratory Technician,No,3468,Low,2,3,1,2,6,0,0.601,High
+8,32,Research & Development,Laboratory Technician,No,3068,Low,4,2,4,7,8,0,0.284,Low
+10,59,Research & Development,Laboratory Technician,Yes,2670,Low,1,2,3,1,12,0,0.559,Medium
+11,30,Research & Development,Laboratory Technician,No,2693,Low,3,3,4,1,1,0,0.204,Low
+12,38,Research & Development,Manufacturing Director,No,9526,High,3,3,4,9,10,0,0.305,Medium
+13,36,Research & Development,Healthcare Representative,No,5237,Mid,3,2,3,7,17,0,0.226,Low
+14,35,Research & Development,Laboratory Technician,No,2426,Low,2,3,1,5,6,0,0.229,Low
+15,29,Research & Development,Laboratory Technician,Yes,4193,Mid,3,3,4,9,10,0,0.426,Medium
+16,31,Research & Development,Research Scientist,No,2911,Low,3,2,1,5,5,0,0.46,Medium
+18,34,Research & Development,Laboratory Technician,No,2661,Low,4,3,2,2,3,0,0.155,Low
+19,28,Research & Development,Laboratory Technician,Yes,2028,Low,3,3,3,4,6,1,0.973,High
+20,29,Research & Development,Manufacturing Director,No,9980,High,1,3,2,10,10,0,0.058,Low
+21,32,Research & Development,Research Scientist,Yes,3298,Low,2,2,1,6,7,0,0.43,Medium
+22,22,Research & Development,Laboratory Technician,Yes,2935,Low,4,2,4,1,1,0,0.354,Medium
+23,53,Sales,Manager,No,15427,High,4,3,1,25,31,0,0.049,Low
+24,38,Research & Development,Research Scientist,Yes,3944,Mid,4,3,4,3,6,0,0.517,Medium
+26,24,Research & Development,Manufacturing Director,No,4011,Mid,3,2,1,4,5,0,0.017,Low
+27,36,Sales,Sales Representative,No,3407,Low,1,3,3,5,10,1,0.815,High
+28,34,Research & Development,Research Director,No,11994,High,2,3,1,12,13,0,0.021,Low
+30,21,Research & Development,Research Scientist,No,1232,Low,4,3,3,0,0,0,0.222,Low
+31,34,Research & Development,Research Scientist,No,2960,Low,1,3,2,4,8,1,0.438,Medium
+32,53,Research & Development,Manager,No,19094,High,3,2,3,14,26,0,0.002,Low
+33,32,Research & Development,Research Scientist,Yes,3919,Mid,1,3,2,10,10,1,0.957,High
+35,42,Sales,Sales Executive,No,6825,High,2,3,3,9,10,0,0.353,Medium
+36,44,Research & Development,Healthcare Representative,No,10248,High,4,3,1,22,24,0,0.026,Low
+38,46,Sales,Manager,No,18947,High,1,2,2,2,22,0,0.292,Low
+39,33,Research & Development,Laboratory Technician,No,2496,Low,4,3,3,1,7,0,0.468,Medium
+40,44,Research & Development,Healthcare Representative,Yes,6465,Mid,4,4,4,4,9,0,0.123,Low
+41,30,Research & Development,Laboratory Technician,No,2206,Low,3,3,4,10,10,0,0.567,Medium
+42,39,Sales,Sales Representative,No,2086,Low,4,4,4,1,19,1,0.066,Low
+45,24,Research & Development,Research Scientist,Yes,2293,Low,4,2,2,2,6,1,0.708,High
+46,43,Research & Development,Research Scientist,No,2645,Low,3,2,4,5,6,0,0.012,Low
+47,50,Sales,Sales Representative,Yes,2683,Low,3,3,1,3,3,1,0.941,High
+49,35,Sales,Sales Representative,No,2014,Low,4,3,4,2,2,0,0.291,Low
+51,36,Research & Development,Research Scientist,Yes,3419,Low,1,4,2,1,6,0,0.7,High
+52,33,Sales,Sales Executive,No,5376,Mid,1,3,3,5,10,0,0.229,Low
+53,35,Research & Development,Laboratory Technician,No,1951,Low,4,3,3,1,1,0,0.182,Low
+54,27,Research & Development,Laboratory Technician,No,2341,Low,1,3,4,1,1,0,0.076,Low
+55,26,Research & Development,Laboratory Technician,No,2293,Low,3,2,1,1,1,1,0.951,High
+56,27,Sales,Sales Executive,No,8726,High,3,3,4,9,9,0,0.203,Low
+57,30,Research & Development,Laboratory Technician,No,4011,Mid,4,3,3,12,12,0,0.197,Low
+58,41,Research & Development,Research Director,No,19545,High,3,3,2,22,23,1,0.127,Low
+60,34,Sales,Sales Executive,No,4568,Mid,3,3,2,9,10,0,0.444,Medium
+61,37,Research & Development,Research Scientist,No,3022,Low,2,3,2,1,8,0,0.615,High
+62,46,Sales,Sales Executive,Yes,5772,Mid,4,3,1,9,14,0,0.657,High
+63,35,Research & Development,Laboratory Technician,No,2269,Low,4,3,4,1,1,0,0.059,Low
+64,48,Research & Development,Laboratory Technician,Yes,5381,Mid,3,3,1,1,23,1,0.879,High
+65,28,Research & Development,Laboratory Technician,Yes,3441,Low,3,2,3,2,2,1,0.933,High
+68,44,Sales,Sales Executive,Yes,5454,Mid,1,2,2,4,9,0,0.702,High
+70,35,Research & Development,Healthcare Representative,Yes,9884,High,1,3,3,4,10,0,0.345,Medium
+72,26,Sales,Sales Executive,Yes,4157,Mid,4,2,3,2,5,0,0.812,High
+73,33,Research & Development,Research Director,Yes,13458,High,4,3,1,15,15,0,0.095,Low
+74,35,Sales,Sales Executive,No,9069,High,1,2,2,9,9,0,0.258,Low
+75,35,Research & Development,Laboratory Technician,Yes,4014,Mid,1,3,3,2,4,0,0.855,High
+76,31,Research & Development,Laboratory Technician,No,5915,Mid,4,2,4,7,10,0,0.026,Low
+77,37,Research & Development,Manufacturing Director,No,5993,Mid,3,4,1,7,7,0,0.034,Low
+78,32,Research & Development,Manufacturing Director,Yes,6162,Mid,4,3,1,9,9,0,0.466,Medium
+79,38,Research & Development,Laboratory Technician,No,2406,Low,4,3,4,10,10,0,0.695,High
+80,50,Research & Development,Research Director,Yes,18740,High,3,2,2,27,29,0,0.823,High
+81,59,Sales,Sales Executive,No,7637,High,1,2,1,21,28,0,0.467,Medium
+83,36,Research & Development,Healthcare Representative,No,10096,High,3,3,3,17,17,0,0.123,Low
+84,55,Research & Development,Manager,Yes,14756,High,3,3,4,5,21,0,0.05,Low
+85,36,Research & Development,Manufacturing Director,No,6499,Mid,2,3,2,6,6,0,0.534,Medium
+86,45,Research & Development,Research Scientist,No,9724,High,1,3,2,1,25,0,0.068,Low
+88,35,Research & Development,Research Scientist,No,2194,Low,1,2,2,3,5,0,0.537,Medium
+90,36,Research & Development,Research Scientist,Yes,3388,Low,3,2,4,1,2,1,0.691,High
+91,59,Sales,Sales Executive,No,5473,Mid,3,2,1,4,20,0,0.626,High
+94,29,Research & Development,Research Scientist,No,2703,Low,2,3,3,5,6,0,0.026,Low
+95,31,Research & Development,Research Scientist,No,2501,Low,2,3,3,1,1,0,0.306,Medium
+96,32,Research & Development,Research Scientist,No,6220,Mid,2,3,2,10,10,0,0.045,Low
+97,36,Research & Development,Laboratory Technician,No,3038,Low,4,3,2,1,5,0,0.295,Low
+98,31,Research & Development,Manufacturing Director,No,4424,Mid,4,3,3,11,11,0,0.048,Low
+100,35,Sales,Sales Executive,No,4312,Mid,1,3,3,15,16,0,0.438,Medium
+101,45,Research & Development,Research Director,Yes,13245,High,1,4,4,0,17,0,0.162,Low
+102,37,Research & Development,Research Director,No,13664,High,3,4,1,5,16,0,0.192,Low
+103,46,Human Resources,Human Resources,Yes,5021,Mid,2,3,2,4,16,0,0.667,High
+104,30,Research & Development,Laboratory Technician,Yes,5126,Mid,4,2,4,10,10,0,0.667,High
+105,35,Research & Development,Research Scientist,No,2859,Low,3,3,2,6,6,0,0.208,Low
+106,55,Sales,Sales Executive,No,10239,High,4,3,1,1,24,0,0.047,Low
+107,38,Research & Development,Research Scientist,Yes,5329,Mid,4,3,2,13,17,0,0.057,Low
+110,34,Research & Development,Manufacturing Director,No,4325,Mid,2,3,1,5,5,0,0.087,Low
+112,56,Research & Development,Manufacturing Director,No,7260,High,4,2,4,6,37,0,0.135,Low
+113,23,Sales,Sales Representative,No,2322,Low,1,3,3,0,3,0,0.827,High
+116,51,Research & Development,Laboratory Technician,No,2075,Low,4,3,4,4,10,0,0.07,Low
+117,30,Research & Development,Healthcare Representative,No,4152,Mid,4,3,3,11,11,0,0.047,Low
+118,46,Sales,Sales Executive,No,9619,High,4,3,3,9,9,1,0.149,Low
+119,40,Research & Development,Healthcare Representative,No,13503,High,2,2,3,22,22,0,0.574,Medium
+120,51,Sales,Sales Executive,Yes,5441,Mid,4,1,3,10,11,0,0.707,High
+121,30,Sales,Sales Executive,Yes,5209,Mid,2,2,3,11,11,0,0.326,Medium
+124,46,Research & Development,Healthcare Representative,Yes,10673,High,1,2,3,10,21,0,0.475,Medium
+125,32,Sales,Sales Executive,No,5010,Mid,3,3,2,11,12,0,0.283,Low
+126,54,Research & Development,Research Director,No,13549,High,3,1,1,4,16,0,0.256,Low
+128,24,Sales,Sales Executive,No,4999,Mid,3,2,1,3,4,0,0.38,Medium
+129,28,Sales,Sales Executive,No,4221,Mid,3,4,2,5,5,0,0.071,Low
+131,58,Sales,Sales Executive,No,13872,High,3,2,4,37,38,0,0.514,Medium
+132,44,Research & Development,Laboratory Technician,No,2042,Low,2,4,2,3,17,0,0.226,Low
+133,37,Human Resources,Human Resources,Yes,2073,Low,1,3,3,3,7,1,0.631,High
+134,32,Research & Development,Research Scientist,No,2956,Low,1,3,4,1,1,0,0.331,Medium
+137,20,Research & Development,Laboratory Technician,Yes,2926,Low,4,3,4,1,1,1,0.882,High
+138,34,Research & Development,Research Scientist,No,4809,Mid,3,3,1,16,16,0,0.089,Low
+139,37,Research & Development,Healthcare Representative,No,5163,Mid,4,4,3,1,17,0,0.004,Low
+140,59,Human Resources,Manager,No,18844,High,4,3,3,3,30,0,0.002,Low
+141,50,Research & Development,Research Director,Yes,18172,High,2,2,1,8,28,0,0.201,Low
+142,25,Sales,Sales Executive,Yes,5744,Mid,3,3,3,6,6,1,0.881,High
+143,25,Research & Development,Research Scientist,No,2889,Low,4,3,4,2,2,0,0.089,Low
+144,22,Research & Development,Laboratory Technician,No,2871,Low,4,3,2,0,1,0,0.461,Medium
+145,51,Research & Development,Healthcare Representative,No,7484,High,1,2,1,13,23,0,0.603,High
+147,34,Research & Development,Laboratory Technician,Yes,6074,Mid,3,3,1,9,9,1,0.911,High
+148,54,Human Resources,Manager,Yes,17328,High,4,3,4,5,23,0,0.013,Low
+150,24,Research & Development,Laboratory Technician,No,2774,Low,3,3,2,5,6,0,0.446,Medium
+151,34,Research & Development,Research Scientist,No,4505,Mid,2,3,3,1,12,0,0.154,Low
+152,37,Sales,Sales Executive,No,7428,High,4,3,3,5,12,0,0.142,Low
+153,34,Research & Development,Manager,No,11631,High,1,3,3,11,14,0,0.104,Low
+154,36,Sales,Sales Executive,No,9738,High,4,3,2,9,10,0,0.153,Low
+155,36,Research & Development,Laboratory Technician,No,2835,Low,4,3,1,1,7,0,0.28,Low
+158,43,Sales,Manager,Yes,16959,High,4,4,3,25,25,0,0.105,Low
+159,30,Research & Development,Research Scientist,No,2613,Low,3,2,1,10,10,0,0.234,Low
+160,33,Sales,Sales Executive,No,6146,Mid,2,4,3,7,8,0,0.085,Low
+161,56,Research & Development,Research Scientist,Yes,4963,Mid,2,3,2,5,7,1,0.758,High
+162,51,Research & Development,Research Director,No,19537,High,3,3,1,20,23,0,0.132,Low
+163,31,Sales,Sales Executive,Yes,6172,Mid,3,2,2,7,12,1,0.891,High
+164,26,Research & Development,Research Scientist,No,2368,Low,2,2,3,5,5,0,0.214,Low
+165,58,Research & Development,Healthcare Representative,No,10312,High,4,2,4,40,40,1,0.245,Low
+167,19,Sales,Sales Representative,Yes,1675,Low,3,2,4,0,0,1,0.968,High
+169,22,Research & Development,Laboratory Technician,No,2523,Low,4,3,3,2,3,0,0.601,High
+170,49,Research & Development,Manufacturing Director,No,6567,High,1,2,3,15,16,0,0.029,Low
+171,43,Research & Development,Research Scientist,No,4739,Mid,3,3,2,3,18,0,0.223,Low
+174,50,Sales,Sales Executive,No,9208,High,4,3,3,2,16,0,0.35,Medium
+175,31,Sales,Sales Executive,Yes,4559,Mid,3,3,2,2,4,1,0.928,High
+176,41,Sales,Sales Executive,Yes,8189,High,3,3,3,9,12,0,0.254,Low
+177,26,Human Resources,Human Resources,No,2942,Low,3,3,3,8,8,0,0.095,Low
+178,36,Research & Development,Manufacturing Director,No,4941,Mid,2,3,2,3,7,0,0.146,Low
+179,51,Research & Development,Manufacturing Director,No,10650,High,4,3,1,4,18,1,0.329,Medium
+182,39,Sales,Sales Executive,No,5902,Mid,3,4,4,15,17,0,0.025,Low
+183,25,Sales,Sales Executive,No,8639,High,3,3,1,2,6,0,0.564,Medium
+184,30,Human Resources,Human Resources,Yes,6347,Mid,4,1,3,11,12,0,0.386,Medium
+190,32,Research & Development,Laboratory Technician,No,4200,Mid,1,4,1,5,10,1,0.744,High
+192,45,Research & Development,Research Scientist,No,3452,Low,4,2,3,6,9,0,0.313,Medium
+193,38,Research & Development,Research Scientist,Yes,4317,Mid,3,3,4,3,19,0,0.604,High
+194,30,Research & Development,Research Scientist,No,2632,Low,3,2,1,5,5,0,0.328,Medium
+195,32,Sales,Sales Executive,No,4668,Mid,4,4,4,8,9,0,0.027,Low
+197,30,Research & Development,Research Scientist,No,3204,Low,1,3,4,3,8,0,0.26,Low
+198,30,Research & Development,Laboratory Technician,No,2720,Low,4,3,2,5,6,0,0.498,Medium
+199,41,Research & Development,Manager,No,17181,High,1,2,4,7,21,0,0.188,Low
+200,41,Research & Development,Laboratory Technician,No,2238,Low,1,3,3,5,7,0,0.283,Low
+201,19,Research & Development,Laboratory Technician,No,1483,Low,2,3,2,1,1,0,0.598,Medium
+202,40,Research & Development,Research Scientist,No,5605,Mid,2,3,2,20,20,0,0.199,Low
+204,35,Sales,Sales Executive,No,7295,High,2,3,3,10,10,0,0.136,Low
+205,53,Sales,Sales Representative,Yes,2306,Low,3,1,2,7,13,0,0.877,High
+206,45,Research & Development,Laboratory Technician,No,2348,Low,2,1,2,17,20,0,0.178,Low
+207,32,Sales,Sales Executive,No,8998,High,4,3,2,9,9,0,0.321,Medium
+208,29,Research & Development,Manufacturing Director,No,4319,Mid,3,3,4,10,10,0,0.003,Low
+211,51,Research & Development,Manufacturing Director,No,6132,Mid,3,3,2,1,10,0,0.178,Low
+214,58,Research & Development,Research Scientist,Yes,3346,Low,2,2,2,1,9,0,0.746,High
+215,40,Sales,Sales Executive,No,10855,High,4,2,3,12,15,0,0.201,Low
+216,34,Sales,Sales Representative,No,2231,Low,3,3,3,4,6,0,0.585,Medium
+217,22,Research & Development,Research Scientist,No,2323,Low,4,3,3,2,2,0,0.059,Low
+218,27,Research & Development,Research Scientist,No,2024,Low,2,1,4,2,6,0,0.067,Low
+221,28,Research & Development,Research Scientist,No,2713,Low,4,1,3,5,5,0,0.327,Medium
+223,57,Research & Development,Healthcare Representative,Yes,9439,High,4,1,3,5,12,0,0.144,Low
+224,27,Research & Development,Research Scientist,Yes,2566,Low,3,2,3,1,1,0,0.192,Low
+226,50,Research & Development,Manager,No,19926,High,2,3,3,5,21,0,0.058,Low
+227,41,Research & Development,Research Scientist,No,2451,Low,3,3,1,9,13,0,0.119,Low
+228,30,Sales,Sales Executive,No,9419,High,4,3,2,10,12,0,0.148,Low
+230,38,Sales,Sales Executive,No,8686,High,4,4,1,8,12,0,0.217,Low
+231,32,Research & Development,Research Scientist,No,3038,Low,3,3,3,5,8,0,0.326,Medium
+233,27,Research & Development,Research Scientist,Yes,3058,Low,2,2,3,5,6,0,0.817,High
+235,19,Sales,Sales Representative,No,2325,Low,1,4,3,0,1,1,0.948,High
+238,36,Research & Development,Laboratory Technician,No,2088,Low,2,2,4,8,13,0,0.795,High
+239,30,Research & Development,Laboratory Technician,No,3072,Low,1,3,3,12,12,0,0.07,Low
+240,45,Sales,Sales Executive,Yes,5006,Mid,1,4,3,5,9,0,0.353,Medium
+241,56,Research & Development,Research Scientist,Yes,4257,Mid,1,3,3,2,19,0,0.194,Low
+242,33,Research & Development,Research Scientist,No,2500,Low,4,4,3,3,4,0,0.2,Low
+243,19,Research & Development,Laboratory Technician,No,1102,Low,4,2,2,1,1,1,0.652,High
+244,46,Sales,Sales Executive,No,10453,High,1,3,2,24,24,0,0.18,Low
+245,38,Research & Development,Laboratory Technician,No,2288,Low,4,3,3,2,2,0,0.234,Low
+246,31,Research & Development,Research Scientist,Yes,3929,Mid,4,3,3,4,7,0,0.647,High
+247,34,Research & Development,Research Scientist,No,2311,Low,2,3,4,3,9,0,0.246,Low
+248,41,Sales,Sales Representative,Yes,3140,Low,2,2,2,4,4,1,0.873,High
+249,50,Research & Development,Laboratory Technician,No,3690,Mid,3,2,3,3,5,0,0.251,Low
+250,53,Research & Development,Manufacturing Director,No,4450,Mid,1,3,4,4,5,0,0.023,Low
+252,33,Research & Development,Research Scientist,No,2756,Low,2,3,4,8,8,0,0.023,Low
+253,40,Research & Development,Manager,No,19033,High,3,3,4,20,21,0,0.062,Low
+254,55,Research & Development,Research Director,No,18722,High,2,3,3,24,36,0,0.007,Low
+256,34,Research & Development,Manufacturing Director,No,9547,High,3,2,4,10,10,0,0.039,Low
+258,51,Research & Development,Healthcare Representative,No,13734,High,2,3,4,7,21,0,0.015,Low
+259,52,Research & Development,Manager,No,19999,High,3,3,3,33,34,0,0.079,Low
+260,27,Research & Development,Research Scientist,No,2279,Low,2,2,4,7,7,0,0.09,Low
+261,35,Research & Development,Manufacturing Director,Yes,5916,Mid,3,3,2,1,8,1,0.911,High
+262,43,Research & Development,Research Scientist,No,2089,Low,4,4,4,5,7,0,0.006,Low
+264,45,Research & Development,Manager,No,16792,High,4,3,1,20,22,0,0.148,Low
+267,37,Research & Development,Research Scientist,Yes,3564,Low,1,2,2,8,8,0,0.688,High
+269,35,Research & Development,Laboratory Technician,No,4425,Mid,2,3,2,6,10,0,0.873,High
+270,42,Research & Development,Manufacturing Director,No,5265,Mid,3,3,3,5,11,0,0.003,Low
+271,38,Research & Development,Manufacturing Director,No,6553,High,3,3,4,1,14,0,0.157,Low
+273,38,Research & Development,Manufacturing Director,No,6261,Mid,4,1,4,7,9,0,0.052,Low
+274,27,Research & Development,Manufacturing Director,No,4298,Mid,1,3,3,2,6,0,0.844,High
+275,49,Research & Development,Manufacturing Director,Yes,6804,High,4,3,4,7,7,0,0.005,Low
+277,34,Research & Development,Research Scientist,Yes,3815,Mid,3,4,4,5,5,0,0.27,Low
+281,40,Research & Development,Laboratory Technician,Yes,2741,Low,4,4,3,7,15,0,0.829,High
+282,38,Research & Development,Healthcare Representative,Yes,6673,High,1,3,2,1,17,1,0.739,High
+283,29,Sales,Sales Executive,No,7639,High,4,2,2,10,10,1,0.072,Low
+284,22,Research & Development,Research Scientist,Yes,2328,Low,2,2,4,4,4,0,0.382,Medium
+286,36,Research & Development,Laboratory Technician,No,2153,Low,4,3,2,8,8,0,0.659,High
+287,40,Research & Development,Healthcare Representative,No,4876,Mid,4,1,4,3,5,0,0.063,Low
+288,46,Research & Development,Healthcare Representative,No,9396,High,1,3,4,4,17,0,0.028,Low
+291,32,Sales,Sales Executive,No,10400,High,4,2,4,14,14,1,0.225,Low
+292,30,Research & Development,Manufacturing Director,No,8474,High,3,3,3,11,12,0,0.057,Low
+293,27,Sales,Sales Executive,No,9981,High,3,3,4,7,7,0,0.139,Low
+296,51,Research & Development,Research Director,No,12490,High,2,1,2,10,16,0,0.025,Low
+297,30,Research & Development,Research Scientist,Yes,2657,Low,1,3,4,5,8,1,0.645,High
+298,41,Sales,Manager,Yes,13591,High,4,3,4,1,16,0,0.09,Low
+299,30,Sales,Sales Executive,No,6696,High,1,2,3,6,9,1,0.928,High
+300,29,Research & Development,Research Scientist,No,2058,Low,3,2,3,6,7,1,0.41,Medium
+302,45,Sales,Sales Executive,No,8865,High,4,3,4,19,23,0,0.131,Low
+303,54,Sales,Sales Executive,No,5940,Mid,1,3,4,6,16,0,0.03,Low
+304,36,Research & Development,Laboratory Technician,No,5914,Mid,2,4,4,13,16,0,0.24,Low
+305,33,Research & Development,Research Scientist,No,2622,Low,2,3,3,3,7,0,0.242,Low
+306,37,Research & Development,Research Director,Yes,12185,High,4,3,2,10,10,0,0.081,Low
+307,38,Sales,Sales Executive,No,10609,High,3,2,1,16,17,0,0.03,Low
+308,31,Research & Development,Manufacturing Director,No,4345,Mid,3,3,3,5,6,0,0.006,Low
+309,59,Research & Development,Research Scientist,No,2177,Low,4,3,3,1,7,0,0.08,Low
+311,37,Sales,Sales Representative,No,2793,Low,4,3,1,9,13,0,0.255,Low
+312,29,Sales,Sales Executive,No,7918,High,4,3,2,11,11,0,0.137,Low
+314,35,Sales,Sales Executive,No,8789,High,3,4,3,10,10,0,0.224,Low
+315,29,Research & Development,Research Scientist,Yes,2389,Low,4,2,3,4,4,1,0.834,High
+316,52,Research & Development,Laboratory Technician,No,3212,Low,4,2,3,2,6,0,0.444,Medium
+319,42,Research & Development,Manager,No,19232,High,4,3,3,22,22,0,0.06,Low
+321,59,Human Resources,Human Resources,No,2267,Low,3,2,2,2,7,0,0.422,Medium
+323,50,Sales,Manager,No,19517,High,4,2,4,7,32,0,0.001,Low
+325,33,Research & Development,Laboratory Technician,Yes,2436,Low,4,1,3,5,8,1,0.778,High
+327,43,Sales,Manager,Yes,16064,High,4,3,4,17,22,0,0.016,Low
+328,33,Research & Development,Laboratory Technician,No,2707,Low,1,4,1,9,13,1,0.414,Medium
+329,52,Sales,Manager,Yes,19068,High,3,4,1,33,33,0,0.685,High
+330,32,Sales,Sales Representative,No,3931,Mid,2,3,3,4,6,0,0.427,Medium
+331,32,Research & Development,Laboratory Technician,Yes,3730,Mid,3,1,4,3,4,1,0.794,High
+332,39,Research & Development,Laboratory Technician,No,2232,Low,3,3,3,3,7,0,0.171,Low
+333,32,Sales,Sales Executive,No,4465,Mid,4,3,3,3,4,0,0.041,Low
+334,41,Research & Development,Research Scientist,No,3072,Low,1,2,3,1,17,0,0.197,Low
+335,40,Research & Development,Research Scientist,No,3319,Low,4,3,1,9,9,0,0.334,Medium
+336,45,Research & Development,Manager,No,19202,High,4,3,3,24,25,0,0.072,Low
+337,31,Research & Development,Research Director,No,13675,High,3,3,2,2,9,0,0.08,Low
+338,33,Research & Development,Research Scientist,No,2911,Low,4,2,3,2,2,0,0.09,Low
+339,34,Research & Development,Manufacturing Director,No,5957,Mid,1,3,4,11,13,0,0.214,Low
+340,37,Research & Development,Research Scientist,No,3920,Mid,1,2,3,3,17,0,0.219,Low
+341,45,Research & Development,Manufacturing Director,No,6434,Mid,3,3,1,3,9,0,0.234,Low
+342,37,Research & Development,Manufacturing Director,No,10048,High,3,3,1,1,17,1,0.267,Low
+343,39,Research & Development,Healthcare Representative,No,10938,High,3,3,3,19,20,0,0.595,Medium
+346,29,Research & Development,Research Scientist,No,2340,Low,4,3,3,6,6,0,0.16,Low
+347,42,Research & Development,Research Scientist,Yes,6545,High,1,3,4,3,10,0,0.569,Medium
+349,29,Sales,Sales Executive,No,6931,High,4,3,4,3,10,0,0.05,Low
+350,25,Research & Development,Manufacturing Director,No,4898,Mid,3,3,1,4,5,0,0.086,Low
+351,42,Research & Development,Laboratory Technician,Yes,2593,Low,1,3,4,9,10,0,0.511,Medium
+352,40,Research & Development,Research Director,No,19436,High,3,3,1,21,22,0,0.005,Low
+353,51,Research & Development,Research Scientist,No,2723,Low,4,2,3,1,1,0,0.21,Low
+355,31,Research & Development,Laboratory Technician,No,3479,Low,2,4,3,5,6,1,0.842,High
+359,32,Research & Development,Laboratory Technician,No,2794,Low,2,1,2,5,5,0,0.66,High
+361,38,Sales,Sales Executive,No,5249,Mid,4,3,4,8,13,0,0.018,Low
+362,32,Research & Development,Laboratory Technician,No,2176,Low,1,3,4,6,9,0,0.746,High
+363,46,Sales,Manager,Yes,16872,High,2,2,3,7,28,0,0.793,High
+364,28,Research & Development,Laboratory Technician,No,3485,Low,3,1,1,0,5,1,0.701,High
+366,29,Sales,Sales Executive,No,6644,High,2,3,1,0,10,0,0.429,Medium
+367,31,Research & Development,Healthcare Representative,No,5582,Mid,4,3,2,9,10,0,0.279,Low
+369,25,Research & Development,Healthcare Representative,No,4000,Mid,1,3,2,6,6,0,0.009,Low
+372,45,Research & Development,Healthcare Representative,Yes,13496,High,4,3,3,20,21,0,0.164,Low
+373,36,Research & Development,Laboratory Technician,No,3210,Low,4,3,4,15,16,0,0.048,Low
+374,55,Research & Development,Manager,Yes,19045,High,1,3,4,36,37,0,0.472,Medium
+376,47,Research & Development,Manager,Yes,11849,High,2,2,1,10,10,1,0.318,Medium
+377,28,Research & Development,Research Scientist,No,2070,Low,4,2,4,5,5,0,0.032,Low
+378,37,Sales,Sales Executive,No,6502,Mid,4,4,3,5,7,0,0.115,Low
+379,21,Research & Development,Research Scientist,No,3230,Low,3,4,4,3,3,0,0.347,Medium
+380,37,Research & Development,Research Director,Yes,13603,High,4,3,1,5,15,0,0.009,Low
+381,35,Research & Development,Manager,No,11996,High,2,2,2,7,10,0,0.101,Low
+382,38,Sales,Sales Executive,Yes,5605,Mid,1,3,1,8,8,0,0.666,High
+384,26,Research & Development,Manufacturing Director,No,6397,Mid,2,1,3,6,6,0,0.024,Low
+385,50,Research & Development,Research Director,No,19144,High,2,2,1,10,28,0,0.01,Low
+386,53,Research & Development,Research Director,Yes,17584,High,3,2,3,5,21,0,0.043,Low
+387,42,Sales,Sales Executive,No,4907,Mid,3,3,2,20,20,0,0.109,Low
+388,29,Sales,Sales Executive,No,4554,Mid,4,2,2,10,10,0,0.163,Low
+389,55,Research & Development,Laboratory Technician,Yes,5415,Mid,4,3,2,10,12,0,0.495,Medium
+390,26,Research & Development,Healthcare Representative,Yes,4741,Mid,1,3,1,5,5,0,0.934,High
+391,37,Research & Development,Research Scientist,No,2115,Low,4,3,4,17,17,0,0.05,Low
+392,44,Research & Development,Laboratory Technician,Yes,3161,Low,3,1,4,1,19,1,0.7,High
+393,38,Research & Development,Healthcare Representative,No,5745,Mid,4,3,4,2,10,0,0.128,Low
+394,26,Research & Development,Laboratory Technician,Yes,2373,Low,2,3,1,3,5,1,0.854,High
+395,28,Research & Development,Research Scientist,No,3310,Low,4,3,4,5,5,0,0.049,Low
+396,49,Research & Development,Research Director,Yes,18665,High,1,3,3,3,22,0,0.828,High
+397,36,Research & Development,Research Scientist,No,4485,Mid,2,3,3,8,10,0,0.872,High
+399,31,Sales,Sales Representative,No,2789,Low,2,2,4,2,2,0,0.455,Medium
+401,26,Sales,Sales Executive,Yes,5828,Mid,4,3,4,8,8,1,0.92,High
+403,37,Research & Development,Research Scientist,Yes,2326,Low,4,2,2,4,4,0,0.681,High
+404,42,Sales,Sales Executive,No,13525,High,2,4,3,20,23,0,0.802,High
+405,18,Research & Development,Laboratory Technician,No,1420,Low,3,3,3,0,0,1,0.57,Medium
+406,35,Sales,Sales Executive,No,8020,High,2,2,3,11,12,0,0.202,Low
+407,36,Research & Development,Laboratory Technician,No,3688,Mid,4,3,3,1,4,0,0.218,Low
+408,51,Research & Development,Manufacturing Director,No,5482,Mid,2,3,4,4,13,0,0.087,Low
+410,41,Sales,Manager,No,16015,High,2,3,4,22,22,0,0.075,Low
+411,18,Sales,Sales Representative,No,1200,Low,3,3,4,0,0,0,0.706,High
+412,28,Research & Development,Healthcare Representative,No,5661,Mid,1,3,2,8,9,0,0.101,Low
+416,31,Sales,Sales Executive,No,6929,High,4,2,2,8,10,0,0.467,Medium
+417,39,Research & Development,Healthcare Representative,No,9613,High,4,2,3,18,19,0,0.003,Low
+419,36,Research & Development,Laboratory Technician,No,5674,Mid,2,3,2,9,11,0,0.083,Low
+420,32,Sales,Sales Executive,No,5484,Mid,3,2,4,13,13,0,0.067,Low
+421,38,Research & Development,Research Director,No,12061,High,2,3,1,10,19,0,0.099,Low
+422,58,Research & Development,Healthcare Representative,Yes,5660,Mid,3,3,4,5,12,0,0.113,Low
+423,31,Research & Development,Research Scientist,Yes,4821,Mid,4,3,3,5,6,0,0.507,Medium
+424,31,Human Resources,Human Resources,No,6410,Mid,1,3,1,2,9,0,0.939,High
+425,45,Research & Development,Laboratory Technician,No,5210,Mid,1,3,1,24,24,0,0.68,High
+426,31,Research & Development,Research Scientist,Yes,2695,Low,4,1,3,2,3,0,0.438,Medium
+428,33,Research & Development,Manager,No,11878,High,2,3,4,10,12,0,0.198,Low
+429,39,Research & Development,Manager,Yes,17068,High,1,3,3,21,21,0,0.672,High
+430,43,Research & Development,Laboratory Technician,No,2455,Low,4,3,3,8,9,0,0.158,Low
+431,49,Research & Development,Healthcare Representative,Yes,13964,High,3,3,3,7,25,0,0.498,Medium
+433,52,Research & Development,Research Scientist,No,4941,Mid,2,2,3,8,11,1,0.48,Medium
+434,27,Research & Development,Research Scientist,Yes,2478,Low,2,2,3,4,4,0,0.708,High
+436,32,Sales,Sales Executive,Yes,5228,Mid,2,3,3,13,13,0,0.893,High
+437,27,Sales,Sales Executive,Yes,4478,Mid,3,3,4,5,5,0,0.555,Medium
+438,31,Sales,Sales Executive,No,7547,High,4,3,4,7,13,0,0.011,Low
+439,32,Research & Development,Research Scientist,No,5055,Mid,4,2,1,7,10,0,0.226,Low
+440,28,Research & Development,Research Scientist,Yes,3464,Low,4,2,1,3,5,1,0.841,High
+441,30,Research & Development,Research Scientist,No,5775,Mid,4,3,4,10,11,0,0.022,Low
+442,31,Research & Development,Manufacturing Director,No,8943,High,3,3,3,10,10,0,0.08,Low
+444,39,Research & Development,Manager,No,19272,High,4,3,3,21,21,0,0.711,High
+445,39,Sales,Sales Executive,Yes,5238,Mid,3,2,4,1,12,1,0.41,Medium
+446,33,Sales,Sales Executive,No,4682,Mid,4,2,2,7,9,0,0.562,Medium
+447,47,Research & Development,Research Director,No,18300,High,3,3,4,3,21,0,0.018,Low
+448,43,Research & Development,Laboratory Technician,No,5257,Mid,3,4,3,9,9,0,0.225,Low
+449,27,Sales,Sales Executive,Yes,6349,Mid,2,3,3,5,6,0,0.413,Medium
+450,54,Research & Development,Research Scientist,No,4869,Mid,3,2,4,4,20,0,0.227,Low
+451,43,Research & Development,Healthcare Representative,No,9985,High,1,2,3,1,10,0,0.287,Low
+452,45,Research & Development,Research Scientist,No,3697,Mid,4,3,4,10,12,0,0.189,Low
+453,40,Sales,Sales Executive,Yes,7457,High,4,2,2,4,6,0,0.596,Medium
+454,29,Research & Development,Laboratory Technician,Yes,2119,Low,1,2,2,7,7,1,0.849,High
+455,29,Research & Development,Laboratory Technician,No,3983,Mid,4,3,2,3,4,0,0.565,Medium
+456,30,Sales,Sales Executive,No,6118,Mid,3,3,4,10,10,0,0.068,Low
+458,27,Sales,Sales Executive,No,6214,Mid,2,3,2,8,8,0,0.149,Low
+460,37,Research & Development,Manufacturing Director,No,6347,Mid,4,2,4,6,8,0,0.059,Low
+461,38,Research & Development,Research Director,Yes,11510,High,4,3,3,11,12,0,0.033,Low
+462,31,Research & Development,Manufacturing Director,Yes,7143,High,4,2,3,11,11,0,0.33,Medium
+463,29,Sales,Sales Executive,Yes,8268,High,2,3,4,7,7,0,0.388,Medium
+464,35,Research & Development,Manufacturing Director,No,8095,High,2,3,3,16,17,0,0.147,Low
+465,23,Research & Development,Research Scientist,No,2904,Low,4,2,3,4,4,0,0.118,Low
+466,41,Research & Development,Manufacturing Director,Yes,6032,Mid,2,3,4,5,8,0,0.755,High
+467,47,Sales,Sales Representative,No,2976,Low,3,3,2,0,5,0,0.822,High
+468,42,Research & Development,Research Director,No,15992,High,4,3,1,1,16,0,0.15,Low
+469,29,Sales,Sales Executive,No,4649,Mid,3,2,4,4,4,0,0.021,Low
+470,42,Human Resources,Human Resources,Yes,2696,Low,3,3,3,3,4,0,0.565,Medium
+471,32,Research & Development,Laboratory Technician,No,2370,Low,2,3,3,8,8,0,0.145,Low
+473,48,Sales,Manager,No,12504,High,3,1,1,0,15,0,0.444,Medium
+474,37,Research & Development,Research Scientist,Yes,5974,Mid,1,3,3,7,13,0,0.394,Medium
+475,30,Sales,Sales Executive,Yes,4736,Mid,3,4,4,2,4,0,0.819,High
+476,26,Sales,Sales Executive,No,5296,Mid,3,3,3,8,8,0,0.091,Low
+477,42,Research & Development,Healthcare Representative,No,6781,High,4,3,1,1,14,0,0.093,Low
+478,21,Sales,Sales Representative,Yes,2174,Low,2,3,1,3,3,1,0.997,High
+479,36,Sales,Sales Executive,No,6653,High,4,3,4,1,7,0,0.056,Low
+481,36,Sales,Sales Executive,No,9699,High,4,3,1,13,16,0,0.295,Low
+482,57,Research & Development,Healthcare Representative,No,6755,High,3,3,4,3,15,0,0.016,Low
+483,40,Research & Development,Laboratory Technician,Yes,2213,Low,3,3,4,7,10,0,0.103,Low
+484,21,Sales,Sales Representative,No,2610,Low,4,2,1,3,3,0,0.557,Medium
+485,33,Sales,Sales Representative,Yes,2851,Low,3,3,4,1,1,1,0.905,High
+486,37,Research & Development,Laboratory Technician,No,3452,Low,1,3,3,5,17,0,0.295,Low
+487,46,Research & Development,Manufacturing Director,No,5258,Mid,3,4,3,1,7,0,0.037,Low
+488,41,Sales,Sales Executive,No,9355,High,2,3,1,8,8,1,0.57,Medium
+491,50,Research & Development,Healthcare Representative,No,10496,High,4,3,4,4,20,0,0.3,Low
+492,40,Sales,Sales Executive,Yes,6380,Mid,3,3,3,6,8,1,0.807,High
+493,31,Research & Development,Research Scientist,Yes,2657,Low,2,3,3,2,3,0,0.641,High
+494,21,Sales,Sales Representative,No,2716,Low,2,3,3,1,1,1,0.644,High
+495,29,Research & Development,Research Scientist,No,2201,Low,4,3,4,3,6,0,0.396,Medium
+496,35,Research & Development,Healthcare Representative,No,6540,High,2,3,3,1,10,0,0.332,Medium
+497,27,Research & Development,Laboratory Technician,No,3816,Mid,2,3,4,5,5,0,0.148,Low
+498,28,Sales,Sales Executive,No,5253,Mid,4,3,2,7,7,0,0.15,Low
+499,49,Research & Development,Healthcare Representative,No,10965,High,3,3,2,5,26,0,0.351,Medium
+500,51,Sales,Sales Executive,No,4936,Mid,4,2,3,7,18,0,0.038,Low
+501,36,Research & Development,Research Scientist,No,2543,Low,3,3,4,2,6,0,0.071,Low
+502,34,Sales,Sales Executive,Yes,5304,Mid,4,2,1,5,9,1,0.858,High
+505,55,Research & Development,Manager,Yes,16659,High,4,3,3,5,30,0,0.025,Low
+507,24,Sales,Sales Executive,Yes,4260,Mid,3,4,4,5,5,0,0.239,Low
+508,30,Sales,Sales Representative,No,2476,Low,2,3,3,1,1,0,0.825,High
+510,26,Research & Development,Research Scientist,No,3102,Low,1,3,3,6,7,1,0.587,Medium
+511,22,Research & Development,Research Scientist,No,2244,Low,2,3,1,2,2,0,0.485,Medium
+513,36,Sales,Sales Executive,No,7596,High,3,3,2,10,10,0,0.601,High
+514,30,Research & Development,Research Scientist,Yes,2285,Low,4,3,3,1,3,1,0.964,High
+515,37,Research & Development,Laboratory Technician,No,3034,Low,1,2,4,18,18,0,0.117,Low
+516,40,Sales,Sales Executive,No,5715,Mid,2,3,4,5,8,0,0.08,Low
+517,42,Research & Development,Laboratory Technician,No,2576,Low,1,3,2,5,8,0,0.258,Low
+518,37,Research & Development,Manufacturing Director,Yes,4197,Mid,2,2,3,1,18,0,0.51,Medium
+520,43,Research & Development,Research Director,No,14336,High,2,3,1,25,25,0,0.043,Low
+521,40,Research & Development,Laboratory Technician,No,3448,Low,3,3,2,1,20,0,0.315,Medium
+522,54,Research & Development,Research Director,No,19406,High,1,2,1,4,24,0,0.149,Low
+523,34,Sales,Sales Executive,No,6538,High,3,3,3,3,6,0,0.177,Low
+524,31,Research & Development,Manufacturing Director,No,4306,Mid,1,1,2,13,13,0,0.09,Low
+525,43,Research & Development,Laboratory Technician,No,2258,Low,4,3,4,3,8,0,0.646,High
+526,43,Research & Development,Healthcare Representative,Yes,4522,Mid,3,3,3,5,8,0,0.093,Low
+527,25,Sales,Sales Executive,Yes,4487,Mid,4,3,2,5,5,0,0.716,High
+529,37,Research & Development,Research Scientist,Yes,4449,Mid,3,3,2,13,15,0,0.514,Medium
+530,31,Research & Development,Laboratory Technician,No,2218,Low,1,3,4,4,4,0,0.515,Medium
+531,39,Research & Development,Manager,Yes,19197,High,3,3,2,21,21,0,0.201,Low
+532,56,Sales,Sales Executive,No,13212,High,1,2,3,7,36,0,0.118,Low
+533,30,Sales,Sales Executive,No,6577,High,3,3,2,5,6,0,0.63,High
+534,41,Sales,Sales Executive,No,8392,High,1,3,2,10,10,0,0.162,Low
+536,28,Research & Development,Laboratory Technician,No,4558,Mid,1,3,3,10,10,0,0.299,Low
+538,25,Research & Development,Laboratory Technician,No,4031,Mid,1,3,1,2,6,1,0.456,Medium
+543,52,Research & Development,Manufacturing Director,Yes,7969,High,3,3,4,5,28,0,0.118,Low
+544,45,Research & Development,Research Scientist,No,2654,Low,4,2,1,2,8,0,0.077,Low
+546,52,Research & Development,Manager,No,16555,High,4,1,4,5,31,0,0.006,Low
+547,42,Research & Development,Research Scientist,No,4556,Mid,3,3,1,5,19,0,0.43,Medium
+548,30,Research & Development,Manufacturing Director,No,6091,Mid,4,3,3,5,11,0,0.219,Low
+549,60,Research & Development,Manager,No,19566,High,1,1,1,29,33,0,0.474,Medium
+550,46,Research & Development,Manufacturing Director,No,4810,Mid,3,2,3,10,19,0,0.011,Low
+551,42,Research & Development,Healthcare Representative,No,4523,Mid,4,4,4,6,7,0,0.035,Low
+554,24,Sales,Sales Representative,Yes,3202,Low,2,3,1,5,6,1,0.977,High
+555,34,Sales,Sales Representative,No,2351,Low,3,2,4,2,3,1,0.336,Medium
+556,38,Research & Development,Laboratory Technician,Yes,1702,Low,4,3,4,1,1,0,0.61,High
+558,40,Sales,Manager,No,18041,High,3,3,3,20,21,0,0.002,Low
+560,26,Research & Development,Research Scientist,No,2886,Low,4,1,1,3,3,0,0.145,Low
+562,30,Research & Development,Laboratory Technician,No,2097,Low,4,1,3,5,9,0,0.101,Low
+564,29,Research & Development,Research Director,No,11935,High,3,3,2,10,10,0,0.014,Low
+565,29,Research & Development,Research Scientist,No,2546,Low,2,4,3,2,6,1,0.654,High
+566,19,Human Resources,Human Resources,No,2564,Low,4,4,1,1,1,1,0.762,High
+567,30,Sales,Sales Executive,No,8412,High,1,3,3,9,10,0,0.105,Low
+568,57,Sales,Manager,No,14118,High,4,2,1,1,32,0,0.147,Low
+569,50,Research & Development,Manager,No,17046,High,3,3,2,27,28,0,0.618,High
+571,30,Research & Development,Laboratory Technician,No,2564,Low,4,2,3,11,12,0,0.142,Low
+573,60,Sales,Sales Executive,No,10266,High,1,4,3,18,22,0,0.396,Medium
+574,47,Research & Development,Manufacturing Director,No,5070,Mid,4,3,1,5,20,0,0.049,Low
+575,46,Research & Development,Research Director,No,17861,High,3,1,1,3,26,0,0.119,Low
+577,35,Research & Development,Laboratory Technician,No,4230,Mid,3,3,4,5,6,0,0.606,High
+578,54,Research & Development,Laboratory Technician,No,3780,Mid,3,3,3,1,19,0,0.348,Medium
+579,34,Research & Development,Research Scientist,No,2768,Low,3,3,4,7,14,0,0.067,Low
+580,46,Sales,Sales Executive,Yes,9071,High,4,3,3,3,15,0,0.246,Low
+581,31,Research & Development,Manufacturing Director,No,10648,High,2,4,3,13,13,0,0.006,Low
+582,33,Research & Development,Manager,Yes,13610,High,3,4,2,7,15,1,0.465,Medium
+584,33,Research & Development,Laboratory Technician,No,3408,Low,4,3,1,4,8,1,0.543,Medium
+585,30,Sales,Sales Representative,No,2983,Low,2,3,4,3,4,0,0.746,High
+586,35,Research & Development,Healthcare Representative,Yes,7632,High,3,3,4,8,10,0,0.344,Medium
+587,31,Research & Development,Healthcare Representative,No,9824,High,3,3,1,1,12,1,0.515,Medium
+590,34,Human Resources,Human Resources,Yes,9950,High,1,3,2,3,11,1,0.987,High
+591,42,Research & Development,Laboratory Technician,No,2093,Low,3,3,2,2,8,0,0.451,Medium
+592,36,Sales,Sales Executive,No,9980,High,4,2,2,10,10,0,0.32,Medium
+593,22,Research & Development,Laboratory Technician,No,3894,Mid,3,3,3,2,4,1,0.912,High
+595,48,Sales,Sales Executive,No,4051,Mid,4,3,2,9,14,0,0.113,Low
+597,55,Sales,Manager,No,16835,High,2,3,1,10,37,0,0.07,Low
+599,41,Sales,Sales Executive,No,6230,Mid,4,3,4,14,16,0,0.05,Low
+600,35,Sales,Sales Executive,No,4717,Mid,3,3,2,11,15,0,0.424,Medium
+601,40,Research & Development,Manufacturing Director,No,13237,High,3,3,2,20,22,0,0.405,Medium
+602,39,Research & Development,Laboratory Technician,No,3755,Mid,3,3,3,8,8,0,0.262,Low
+604,31,Sales,Sales Executive,Yes,6582,High,4,4,2,6,10,0,0.551,Medium
+605,42,Research & Development,Manufacturing Director,Yes,7406,High,1,2,4,10,10,0,0.364,Medium
+606,45,Sales,Sales Executive,No,4805,Mid,2,4,4,8,9,0,0.026,Low
+608,26,Human Resources,Human Resources,Yes,2741,Low,3,2,2,7,8,1,0.841,High
+611,29,Research & Development,Manufacturing Director,No,4262,Mid,4,4,4,3,8,0,0.231,Low
+612,33,Research & Development,Research Director,No,16184,High,3,3,1,6,10,0,0.015,Low
+613,31,Sales,Manager,No,11557,High,4,2,3,5,10,0,0.131,Low
+614,18,Sales,Sales Representative,Yes,1878,Low,2,3,2,0,0,1,0.98,High
+615,40,Sales,Sales Executive,No,10932,High,1,3,3,1,20,0,0.173,Low
+616,41,Research & Development,Healthcare Representative,Yes,6811,High,3,3,1,8,10,0,0.211,Low
+618,26,Sales,Sales Executive,No,4306,Mid,3,3,1,0,8,0,0.61,High
+620,35,Sales,Sales Executive,No,4859,Mid,3,3,1,5,5,0,0.207,Low
+621,34,Sales,Sales Executive,No,5337,Mid,4,3,4,10,10,0,0.143,Low
+622,26,Research & Development,Laboratory Technician,Yes,2340,Low,4,1,3,1,1,1,0.996,High
+623,37,Research & Development,Manufacturing Director,No,7491,High,4,4,2,6,12,0,0.253,Low
+624,46,Research & Development,Healthcare Representative,No,10527,High,3,2,1,2,28,0,0.082,Low
+625,41,Sales,Manager,No,16595,High,1,3,2,18,22,0,0.058,Low
+626,37,Sales,Sales Executive,No,8834,High,2,3,1,9,9,0,0.082,Low
+630,52,Research & Development,Research Scientist,Yes,5577,Mid,1,3,4,10,18,0,0.443,Medium
+631,32,Sales,Sales Executive,No,4707,Mid,3,3,4,4,6,1,0.026,Low
+632,24,Sales,Sales Representative,No,2400,Low,4,3,4,2,3,0,0.567,Medium
+634,38,Research & Development,Healthcare Representative,No,9824,High,3,3,3,1,18,0,0.014,Low
+635,37,Research & Development,Manufacturing Director,No,6447,Mid,2,2,2,6,8,0,0.5,Medium
+638,49,Research & Development,Research Director,Yes,19502,High,3,3,4,31,31,0,0.026,Low
+639,24,Research & Development,Research Scientist,Yes,2725,Low,4,3,2,6,6,0,0.456,Medium
+641,26,Sales,Sales Executive,No,6272,Mid,2,4,1,5,6,0,0.327,Medium
+643,24,Research & Development,Laboratory Technician,No,2127,Low,2,3,4,1,1,0,0.569,Medium
+644,50,Human Resources,Manager,No,18200,High,2,3,1,32,32,0,0.429,Medium
+645,25,Sales,Sales Representative,No,2096,Low,3,3,2,7,7,0,0.583,Medium
+647,24,Research & Development,Laboratory Technician,Yes,2886,Low,3,3,1,6,6,1,0.711,High
+648,30,Sales,Sales Representative,No,2033,Low,1,4,2,1,1,1,0.885,High
+649,34,Research & Development,Research Scientist,Yes,3622,Low,4,3,2,6,6,0,0.316,Medium
+650,31,Sales,Sales Executive,No,4233,Mid,1,1,2,3,9,1,0.445,Medium
+652,35,Research & Development,Laboratory Technician,No,3681,Mid,4,3,1,3,9,0,0.874,High
+653,31,Sales,Sales Executive,No,5460,Mid,4,4,1,7,13,0,0.034,Low
+655,27,Research & Development,Research Scientist,No,2187,Low,3,2,1,5,6,0,0.047,Low
+656,37,Sales,Sales Executive,Yes,9602,High,3,2,4,3,17,0,0.586,Medium
+657,20,Research & Development,Research Scientist,No,2836,Low,2,4,4,1,1,0,0.359,Medium
+659,42,Research & Development,Healthcare Representative,No,4089,Mid,4,3,3,10,10,0,0.044,Low
+661,43,Research & Development,Research Director,Yes,16627,High,4,2,2,1,21,0,0.199,Low
+662,38,Research & Development,Research Scientist,No,2619,Low,1,2,3,0,8,0,0.475,Medium
+663,43,Research & Development,Laboratory Technician,Yes,5679,Mid,3,3,4,8,10,0,0.568,Medium
+664,48,Research & Development,Manager,No,15402,High,1,1,4,3,21,0,0.062,Low
+665,44,Human Resources,Human Resources,No,5985,Mid,3,4,1,2,10,0,0.619,High
+666,34,Sales,Sales Representative,Yes,2579,Low,3,3,3,8,8,0,0.757,High
+667,27,Sales,Sales Representative,No,3041,Low,1,3,3,4,5,1,0.328,Medium
+669,21,Sales,Sales Representative,No,3447,Low,3,3,3,3,3,0,0.912,High
+671,44,Research & Development,Manager,Yes,19513,High,4,4,4,2,26,0,0.114,Low
+675,22,Research & Development,Research Scientist,No,2773,Low,3,3,1,2,3,0,0.156,Low
+677,33,Sales,Sales Executive,No,7104,High,3,3,3,5,6,0,0.178,Low
+679,32,Research & Development,Research Scientist,Yes,6322,Mid,4,2,1,6,6,0,0.389,Medium
+680,30,Research & Development,Research Scientist,No,2083,Low,3,3,3,1,1,0,0.205,Low
+682,53,Sales,Sales Executive,No,8381,High,1,4,4,14,18,0,0.393,Medium
+683,34,Research & Development,Research Scientist,No,2691,Low,4,2,2,10,10,0,0.039,Low
+684,45,Sales,Sales Executive,No,4286,Mid,1,3,1,1,5,1,0.415,Medium
+686,26,Research & Development,Laboratory Technician,Yes,2659,Low,4,3,3,3,3,0,0.481,Medium
+689,37,Research & Development,Manufacturing Director,No,9434,High,3,3,3,10,10,0,0.031,Low
+690,29,Sales,Sales Executive,No,5561,Mid,3,2,2,6,6,0,0.285,Low
+691,35,Research & Development,Research Scientist,No,6646,High,4,3,2,17,17,0,0.478,Medium
+692,33,Research & Development,Healthcare Representative,No,7725,High,4,1,3,13,15,0,0.016,Low
+698,54,Human Resources,Human Resources,No,10725,High,2,4,3,9,16,0,0.404,Medium
+699,36,Research & Development,Manufacturing Director,Yes,8847,High,2,3,2,3,13,0,0.388,Medium
+700,27,Research & Development,Research Scientist,No,2045,Low,4,3,1,4,5,0,0.522,Medium
+701,20,Research & Development,Research Scientist,Yes,1009,Low,3,3,4,1,1,1,0.523,Medium
+702,33,Research & Development,Research Scientist,Yes,3348,Low,1,3,1,10,10,1,0.949,High
+704,35,Research & Development,Laboratory Technician,No,1281,Low,3,3,3,1,1,0,0.076,Low
+705,23,Research & Development,Research Scientist,No,2819,Low,1,4,1,3,5,0,0.22,Low
+707,25,Sales,Sales Executive,No,4851,Mid,2,3,4,3,4,0,0.052,Low
+709,38,Sales,Sales Executive,No,4028,Mid,4,3,4,7,8,0,0.083,Low
+710,29,Research & Development,Research Scientist,No,2720,Low,4,3,2,10,10,0,0.041,Low
+712,48,Sales,Sales Executive,No,8120,High,2,3,2,2,12,0,0.199,Low
+714,27,Sales,Sales Executive,Yes,4647,Mid,4,3,4,6,6,0,0.085,Low
+715,37,Research & Development,Research Scientist,No,4680,Mid,4,3,4,1,4,0,0.144,Low
+716,50,Research & Development,Laboratory Technician,Yes,3221,Low,3,3,4,20,20,0,0.414,Medium
+717,34,Research & Development,Healthcare Representative,No,8621,High,2,4,4,8,9,0,0.135,Low
+720,24,Sales,Sales Executive,No,4577,Mid,3,3,1,2,4,1,0.856,High
+721,39,Research & Development,Healthcare Representative,No,4553,Mid,3,3,4,20,20,0,0.29,Low
+722,32,Sales,Sales Executive,No,5396,Mid,4,2,4,10,10,0,0.117,Low
+723,50,Sales,Sales Executive,Yes,6796,High,3,3,2,4,18,1,0.897,High
+724,38,Research & Development,Healthcare Representative,No,7625,High,4,2,2,9,10,0,0.016,Low
+725,27,Research & Development,Manufacturing Director,No,7412,High,1,3,3,9,9,0,0.021,Low
+727,32,Research & Development,Research Director,No,11159,High,4,3,3,7,10,0,0.004,Low
+728,47,Sales,Sales Executive,No,4960,Mid,1,3,4,7,20,0,0.089,Low
+729,40,Sales,Sales Executive,Yes,10475,High,1,3,4,18,20,0,0.528,Medium
+730,53,Research & Development,Research Director,No,14814,High,3,3,3,5,32,0,0.002,Low
+731,41,Human Resources,Manager,No,19141,High,4,2,2,21,23,0,0.406,Medium
+732,60,Sales,Sales Executive,No,5405,Mid,1,3,1,2,10,0,0.874,High
+733,27,Research & Development,Manufacturing Director,No,8793,High,1,2,4,9,9,0,0.113,Low
+734,41,Human Resources,Manager,No,19189,High,3,3,4,22,22,0,0.056,Low
+738,50,Sales,Sales Representative,No,3875,Mid,2,3,4,2,4,0,0.657,High
+741,28,Research & Development,Research Scientist,Yes,2216,Low,2,3,1,7,10,1,0.774,High
+742,36,Research & Development,Research Director,No,11713,High,1,3,1,8,10,0,0.042,Low
+743,38,Research & Development,Manufacturing Director,Yes,7861,High,3,4,3,1,10,0,0.321,Medium
+744,44,Research & Development,Laboratory Technician,No,3708,Mid,3,3,1,5,9,0,0.689,High
+746,47,Sales,Sales Executive,Yes,13770,High,3,2,4,22,28,0,0.877,High
+747,30,Sales,Sales Executive,No,5304,Mid,4,2,3,8,10,0,0.294,Low
+749,29,Sales,Sales Representative,No,2642,Low,3,3,3,1,1,0,0.506,Medium
+752,42,Research & Development,Research Scientist,Yes,2759,Low,3,3,3,2,7,1,0.604,High
+754,43,Sales,Sales Executive,No,6804,High,4,3,4,2,7,0,0.182,Low
+757,34,Research & Development,Healthcare Representative,No,6142,Mid,3,3,2,5,10,0,0.438,Medium
+758,23,Research & Development,Laboratory Technician,No,2500,Low,1,4,2,4,5,0,0.489,Medium
+760,39,Human Resources,Human Resources,No,6389,Mid,2,1,3,8,12,0,0.42,Medium
+762,56,Research & Development,Healthcare Representative,No,11103,High,4,2,3,10,30,0,0.107,Low
+763,40,Research & Development,Research Scientist,Yes,2342,Low,4,2,4,4,5,0,0.489,Medium
+764,27,Research & Development,Healthcare Representative,No,6811,High,1,1,4,7,9,0,0.417,Medium
+766,29,Sales,Sales Representative,No,2297,Low,2,3,4,2,2,0,0.374,Medium
+769,53,Research & Development,Laboratory Technician,No,2450,Low,4,3,4,2,19,0,0.055,Low
+771,35,Research & Development,Healthcare Representative,No,5093,Mid,1,4,4,1,16,0,0.007,Low
+772,32,Research & Development,Laboratory Technician,No,5309,Mid,4,3,1,10,10,0,0.513,Medium
+773,38,Research & Development,Research Scientist,Yes,3057,Low,3,1,4,1,6,0,0.778,High
+775,34,Research & Development,Manufacturing Director,No,5121,Mid,1,3,2,0,7,0,0.114,Low
+776,52,Sales,Manager,No,16856,High,1,4,3,34,34,0,0.088,Low
+780,33,Research & Development,Research Scientist,Yes,2686,Low,4,2,4,10,10,1,0.346,Medium
+781,25,Sales,Sales Executive,No,6180,Mid,4,2,3,6,6,0,0.231,Low
+783,45,Sales,Sales Representative,No,6632,High,3,3,2,8,9,0,0.964,High
+784,23,Research & Development,Research Scientist,No,3505,Low,3,3,1,2,2,0,0.273,Low
+785,47,Sales,Sales Executive,Yes,6397,Mid,3,3,2,5,8,1,0.851,High
+786,34,Sales,Sales Executive,No,6274,Mid,4,3,4,6,6,0,0.067,Low
+787,55,Research & Development,Manager,Yes,19859,High,1,3,4,5,24,1,0.082,Low
+789,36,Sales,Sales Executive,No,7587,High,1,3,1,10,10,0,0.26,Low
+791,52,Research & Development,Research Scientist,No,4258,Mid,4,3,4,4,5,0,0.023,Low
+792,26,Research & Development,Laboratory Technician,No,4364,Mid,4,3,1,2,5,0,0.798,High
+793,29,Research & Development,Healthcare Representative,No,4335,Mid,3,2,2,8,11,0,0.312,Medium
+796,26,Sales,Sales Executive,No,5326,Mid,1,2,4,4,6,1,0.897,High
+797,34,Research & Development,Research Scientist,No,3280,Low,4,3,2,4,10,0,0.084,Low
+799,54,Research & Development,Manufacturing Director,Yes,5485,Mid,1,3,4,5,9,0,0.598,Medium
+800,27,Sales,Sales Executive,No,4342,Mid,4,3,3,4,5,0,0.224,Low
+802,37,Research & Development,Research Scientist,Yes,2782,Low,1,2,4,5,6,0,0.364,Medium
+803,38,Research & Development,Manufacturing Director,Yes,5980,Mid,1,3,1,15,17,0,0.754,High
+804,34,Research & Development,Research Scientist,No,4381,Mid,1,3,3,6,6,0,0.362,Medium
+805,35,Sales,Sales Representative,No,2572,Low,4,2,1,3,3,0,0.415,Medium
+806,30,Research & Development,Laboratory Technician,No,3833,Mid,3,3,4,2,7,0,0.223,Low
+807,40,Research & Development,Healthcare Representative,No,4244,Mid,2,3,3,8,8,0,0.015,Low
+808,34,Sales,Sales Executive,No,6500,Mid,1,3,3,3,6,0,0.483,Medium
+809,42,Research & Development,Manager,No,18430,High,4,2,2,24,24,0,0.327,Medium
+811,23,Research & Development,Laboratory Technician,Yes,1601,Low,1,3,3,0,1,1,0.582,Medium
+812,24,Research & Development,Laboratory Technician,No,2694,Low,2,3,3,1,1,0,0.158,Low
+813,52,Research & Development,Laboratory Technician,No,3149,Low,3,3,4,5,9,0,0.182,Low
+815,50,Research & Development,Research Director,No,17639,High,3,3,3,4,30,0,0.008,Low
+816,29,Research & Development,Laboratory Technician,Yes,2319,Low,1,3,2,1,1,1,0.868,High
+817,33,Research & Development,Research Director,No,11691,High,3,4,3,13,14,0,0.006,Low
+819,33,Sales,Sales Executive,No,5324,Mid,1,3,1,3,6,1,0.785,High
+820,47,Research & Development,Manager,Yes,16752,High,4,2,3,26,26,0,0.221,Low
+823,36,Research & Development,Manufacturing Director,No,5228,Mid,2,3,3,9,10,0,0.068,Low
+824,29,Research & Development,Research Scientist,No,2700,Low,3,3,3,10,10,0,0.028,Low
+825,58,Research & Development,Research Director,Yes,19246,High,2,3,4,31,40,1,0.391,Medium
+826,35,Research & Development,Research Scientist,No,2506,Low,3,3,4,2,7,0,0.074,Low
+827,42,Research & Development,Manufacturing Director,Yes,6062,Mid,4,3,4,4,8,0,0.243,Low
+828,28,Research & Development,Research Scientist,No,4382,Mid,3,2,3,2,5,1,0.331,Medium
+829,36,Human Resources,Human Resources,No,2143,Low,2,3,3,5,8,0,0.655,High
+830,32,Research & Development,Manufacturing Director,No,6162,Mid,3,3,3,14,14,0,0.035,Low
+832,40,Research & Development,Laboratory Technician,No,5094,Mid,3,3,1,1,10,0,0.889,High
+833,30,Research & Development,Manufacturing Director,Yes,6877,High,4,2,3,0,12,0,0.383,Medium
+834,45,Research & Development,Research Scientist,No,2274,Low,3,3,2,1,1,0,0.213,Low
+836,42,Research & Development,Manufacturing Director,No,4434,Mid,2,2,2,9,10,0,0.226,Low
+837,38,Research & Development,Healthcare Representative,No,6288,Mid,1,2,1,4,13,0,0.626,High
+838,34,Research & Development,Research Scientist,No,2553,Low,4,3,3,5,6,0,0.347,Medium
+840,49,Sales,Sales Executive,No,7654,High,4,4,3,9,9,1,0.033,Low
+842,55,Sales,Sales Executive,No,5160,Mid,4,2,3,9,12,1,0.231,Low
+843,43,Research & Development,Research Director,No,17159,High,1,3,2,4,22,0,0.053,Low
+844,27,Research & Development,Research Director,Yes,12808,High,4,3,3,9,9,0,0.033,Low
+845,35,Research & Development,Manufacturing Director,No,10221,High,3,4,3,8,17,0,0.11,Low
+846,28,Sales,Sales Executive,Yes,4779,Mid,2,3,2,8,8,0,0.848,High
+847,34,Human Resources,Human Resources,No,3737,Mid,4,1,3,3,4,0,0.189,Low
+848,26,Research & Development,Research Scientist,Yes,2366,Low,3,3,3,8,8,1,0.449,Medium
+850,27,Research & Development,Research Scientist,No,1706,Low,4,2,4,0,0,0,0.016,Low
+851,51,Sales,Manager,No,16307,High,3,2,1,20,29,0,0.018,Low
+852,44,Research & Development,Healthcare Representative,No,5933,Mid,2,2,4,5,10,0,0.289,Low
+854,25,Research & Development,Research Scientist,No,3424,Low,1,2,1,4,6,0,0.793,High
+855,33,Sales,Sales Executive,No,4037,Mid,1,3,1,9,9,0,0.055,Low
+856,35,Research & Development,Research Scientist,No,2559,Low,1,2,3,6,6,0,0.668,High
+857,36,Sales,Sales Executive,Yes,6201,Mid,4,2,2,18,18,0,0.172,Low
+859,32,Sales,Sales Executive,No,4403,Mid,4,2,2,5,8,0,0.187,Low
+861,30,Research & Development,Research Scientist,No,3761,Mid,4,2,2,5,10,0,0.379,Medium
+862,53,Sales,Sales Executive,Yes,10934,High,4,3,1,5,35,0,0.544,Medium
+864,45,Sales,Sales Executive,Yes,10761,High,1,3,4,5,18,0,0.488,Medium
+865,32,Research & Development,Research Scientist,No,5175,Mid,3,2,3,5,9,0,0.121,Low
+867,52,Research & Development,Manufacturing Director,No,13826,High,4,3,3,9,31,0,0.076,Low
+868,37,Sales,Sales Executive,No,6334,Mid,3,3,4,1,9,0,0.2,Low
+869,28,Human Resources,Human Resources,No,4936,Mid,4,3,2,5,6,0,0.108,Low
+872,22,Research & Development,Manufacturing Director,No,4775,Mid,4,1,4,2,4,0,0.311,Medium
+874,44,Research & Development,Laboratory Technician,Yes,2818,Low,4,2,1,3,10,0,0.548,Medium
+875,42,Research & Development,Research Scientist,Yes,2515,Low,4,3,2,2,8,0,0.716,High
+878,36,Human Resources,Human Resources,No,2342,Low,1,3,1,5,6,0,0.362,Medium
+879,25,Sales,Sales Executive,Yes,4194,Mid,1,3,3,5,5,0,0.739,High
+880,35,Research & Development,Manufacturing Director,Yes,10685,High,3,3,4,17,17,0,0.145,Low
+881,35,Research & Development,Research Scientist,Yes,2022,Low,2,2,4,10,10,1,0.803,High
+882,32,Research & Development,Laboratory Technician,No,2314,Low,4,3,4,3,4,0,0.033,Low
+885,25,Sales,Sales Executive,No,4256,Mid,1,4,3,5,5,0,0.733,High
+887,49,Research & Development,Research Scientist,No,3580,Low,1,3,3,4,7,0,0.204,Low
+888,24,Research & Development,Laboratory Technician,No,3162,Low,4,2,1,5,6,0,0.23,Low
+889,32,Sales,Sales Executive,No,6524,Mid,2,3,2,10,10,0,0.552,Medium
+893,38,Sales,Sales Representative,No,2899,Low,2,3,2,2,3,0,0.61,High
+894,42,Research & Development,Laboratory Technician,Yes,5231,Mid,4,2,3,5,17,0,0.394,Medium
+895,31,Research & Development,Research Scientist,Yes,2356,Low,4,3,4,6,8,0,0.202,Low
+896,29,Sales,Sales Representative,Yes,2800,Low,3,3,2,3,5,1,0.739,High
+897,53,Sales,Sales Executive,No,11836,High,4,3,1,2,28,0,0.18,Low
+899,35,Research & Development,Manufacturing Director,No,10903,High,2,3,4,13,16,0,0.642,High
+900,37,Sales,Sales Representative,No,2973,Low,4,3,3,5,10,0,0.656,High
+901,53,Research & Development,Research Director,No,14275,High,4,3,4,12,33,0,0.011,Low
+902,43,Research & Development,Healthcare Representative,No,5562,Mid,4,2,4,5,12,0,0.104,Low
+903,47,Sales,Sales Executive,Yes,4537,Mid,4,3,3,7,8,0,0.275,Low
+904,37,Sales,Sales Executive,Yes,7642,High,2,3,1,10,10,0,0.819,High
+905,50,Research & Development,Manager,No,17924,High,1,3,1,31,31,0,0.33,Medium
+909,39,Human Resources,Human Resources,No,5204,Mid,4,3,4,5,13,0,0.094,Low
+910,33,Human Resources,Human Resources,Yes,2277,Low,2,4,4,4,7,0,0.434,Medium
+911,32,Research & Development,Laboratory Technician,Yes,2795,Low,4,1,1,1,1,1,0.962,High
+912,29,Research & Development,Laboratory Technician,No,2532,Low,4,3,1,4,8,0,0.196,Low
+913,44,Research & Development,Research Scientist,Yes,2559,Low,1,3,2,8,8,0,0.881,High
+916,28,Sales,Sales Executive,No,4908,Mid,4,3,1,4,4,0,0.501,Medium
+918,58,Research & Development,Laboratory Technician,Yes,2380,Low,4,2,4,1,3,1,0.66,High
+920,43,Research & Development,Manufacturing Director,No,4765,Mid,2,4,1,1,4,0,0.291,Low
+922,20,Sales,Sales Representative,No,2044,Low,3,2,3,2,2,1,0.511,Medium
+923,21,Research & Development,Research Scientist,No,2693,Low,4,2,4,1,1,1,0.149,Low
+924,36,Research & Development,Healthcare Representative,Yes,6586,High,4,2,3,16,17,0,0.13,Low
+925,47,Sales,Sales Representative,Yes,3294,Low,4,2,4,3,3,0,0.882,High
+926,22,Research & Development,Manufacturing Director,Yes,4171,Mid,3,4,2,3,4,1,0.244,Low
+927,41,Research & Development,Laboratory Technician,Yes,2778,Low,4,2,2,7,10,1,0.765,High
+930,28,Research & Development,Research Scientist,No,2377,Low,3,3,3,2,6,0,0.106,Low
+932,39,Research & Development,Laboratory Technician,Yes,2404,Low,1,1,4,2,8,1,0.903,High
+933,27,Research & Development,Research Scientist,No,2318,Low,3,3,2,1,1,0,0.242,Low
+934,34,Research & Development,Laboratory Technician,No,2008,Low,2,3,2,1,1,0,0.439,Medium
+936,42,Sales,Sales Executive,No,6244,Mid,3,3,3,5,10,0,0.379,Medium
+939,33,Research & Development,Research Scientist,Yes,2799,Low,1,3,3,3,6,0,0.833,High
+940,58,Research & Development,Healthcare Representative,Yes,10552,High,2,3,3,6,24,0,0.339,Medium
+941,31,Sales,Sales Representative,No,2329,Low,3,4,2,7,13,0,0.629,High
+942,35,Research & Development,Healthcare Representative,Yes,4014,Mid,4,1,4,10,10,0,0.077,Low
+944,49,Research & Development,Laboratory Technician,No,7403,High,2,2,1,26,29,0,0.707,High
+945,48,Research & Development,Research Scientist,No,2259,Low,3,2,4,0,13,0,0.139,Low
+947,31,Sales,Sales Executive,No,6932,High,3,2,4,9,9,0,0.069,Low
+949,36,Research & Development,Research Scientist,No,4678,Mid,4,3,2,6,8,0,0.185,Low
+950,38,Research & Development,Research Director,No,13582,High,1,3,4,15,15,0,0.006,Low
+951,32,Research & Development,Laboratory Technician,No,2332,Low,2,3,3,3,5,0,0.249,Low
+952,25,Sales,Sales Representative,Yes,2413,Low,2,3,3,1,1,1,0.947,High
+954,40,Sales,Sales Executive,No,9705,High,2,2,1,1,11,0,0.692,High
+956,26,Sales,Sales Executive,No,4294,Mid,1,3,3,7,7,0,0.423,Medium
+957,41,Research & Development,Laboratory Technician,Yes,4721,Mid,1,3,4,18,20,0,0.372,Medium
+958,36,Research & Development,Laboratory Technician,No,2519,Low,3,3,3,11,16,0,0.079,Low
+959,19,Sales,Sales Representative,Yes,2121,Low,2,4,4,1,1,1,0.959,High
+960,20,Research & Development,Laboratory Technician,No,2973,Low,1,3,1,1,1,1,0.957,High
+961,31,Research & Development,Healthcare Representative,Yes,5855,Mid,4,1,4,9,10,0,0.322,Medium
+964,40,Research & Development,Research Scientist,Yes,3617,Low,2,3,4,1,3,0,0.656,High
+966,32,Research & Development,Manufacturing Director,No,6725,High,1,4,3,8,8,0,0.19,Low
+967,36,Sales,Sales Executive,Yes,10325,High,4,3,3,16,16,1,0.372,Medium
+969,33,Research & Development,Healthcare Representative,No,6949,High,4,3,2,5,6,0,0.196,Low
+970,37,Sales,Sales Executive,No,10609,High,3,1,1,14,17,1,0.915,High
+972,45,Research & Development,Laboratory Technician,No,4447,Mid,2,2,3,9,9,0,0.041,Low
+974,29,Sales,Sales Representative,No,2157,Low,4,3,3,3,3,0,0.796,High
+975,35,Sales,Sales Executive,No,4601,Mid,3,3,3,5,5,0,0.29,Low
+976,52,Research & Development,Manager,No,17099,High,4,2,4,9,26,0,0.01,Low
+977,58,Research & Development,Research Scientist,No,2479,Low,3,3,4,1,7,1,0.39,Medium
+981,53,Sales,Manager,No,14852,High,3,4,3,17,22,0,0.091,Low
+982,30,Sales,Sales Executive,No,7264,High,3,4,3,8,10,0,0.283,Low
+983,38,Sales,Sales Executive,Yes,5666,Mid,4,3,3,5,6,0,0.77,High
+984,35,Sales,Sales Executive,No,7823,High,4,3,4,10,12,0,0.013,Low
+985,39,Sales,Sales Executive,No,7880,High,3,3,1,8,9,0,0.05,Low
+986,40,Sales,Sales Executive,Yes,13194,High,2,2,2,1,22,1,0.387,Medium
+987,47,Research & Development,Manufacturing Director,Yes,5067,Mid,3,4,3,19,20,0,0.128,Low
+990,36,Sales,Sales Executive,No,5079,Mid,4,3,1,7,12,0,0.052,Low
+991,31,Research & Development,Research Scientist,Yes,2321,Low,1,3,3,3,4,1,0.776,High
+992,33,Sales,Manager,No,17444,High,3,3,4,10,10,0,0.105,Low
+994,29,Research & Development,Research Scientist,Yes,2404,Low,1,3,4,0,3,1,0.858,High
+995,33,Research & Development,Research Scientist,No,3452,Low,4,3,2,3,5,0,0.208,Low
+996,45,Research & Development,Laboratory Technician,No,2270,Low,4,3,4,5,8,0,0.024,Low
+997,50,Research & Development,Research Director,No,17399,High,4,2,4,5,32,0,0.002,Low
+998,33,Research & Development,Healthcare Representative,Yes,5488,Mid,2,3,3,6,6,0,0.4,Medium
+999,41,Research & Development,Research Director,No,19419,High,3,4,1,18,21,0,0.006,Low
+1001,27,Research & Development,Laboratory Technician,No,2811,Low,2,3,3,2,4,0,0.894,High
+1002,45,Research & Development,Laboratory Technician,Yes,3633,Mid,1,3,4,9,9,0,0.232,Low
+1003,47,Sales,Sales Executive,Yes,4163,Mid,4,3,4,9,9,0,0.368,Medium
+1004,30,Research & Development,Research Scientist,Yes,2132,Low,3,3,1,5,7,1,0.91,High
+1005,50,Research & Development,Manufacturing Director,Yes,13973,High,3,3,4,12,22,0,0.063,Low
+1006,38,Research & Development,Research Scientist,No,2684,Low,3,2,3,2,3,0,0.316,Medium
+1007,46,Research & Development,Manufacturing Director,No,10845,High,3,3,4,8,13,0,0.03,Low
+1009,24,Research & Development,Manufacturing Director,No,4377,Mid,3,3,4,4,5,0,0.06,Low
+1010,35,Research & Development,Laboratory Technician,Yes,3743,Mid,2,1,3,4,5,1,0.768,High
+1011,31,Research & Development,Manufacturing Director,No,4148,Mid,1,3,3,4,4,0,0.315,Medium
+1012,18,Research & Development,Research Scientist,No,1051,Low,4,3,2,0,0,0,0.165,Low
+1013,54,Research & Development,Manufacturing Director,No,10739,High,3,3,3,10,22,0,0.088,Low
+1014,35,Research & Development,Healthcare Representative,Yes,10388,High,3,2,3,16,16,0,0.547,Medium
+1015,30,Research & Development,Research Director,Yes,11416,High,1,2,2,8,9,0,0.013,Low
+1016,20,Research & Development,Research Scientist,Yes,2600,Low,1,3,4,1,1,1,0.895,High
+1017,30,Research & Development,Laboratory Technician,No,2422,Low,2,3,2,3,4,1,0.8,High
+1018,26,Research & Development,Manufacturing Director,No,5472,Mid,4,3,4,8,8,0,0.036,Low
+1019,22,Research & Development,Laboratory Technician,No,2451,Low,1,2,2,4,4,0,0.911,High
+1022,48,Research & Development,Healthcare Representative,No,4240,Mid,3,3,1,2,19,0,0.199,Low
+1024,48,Research & Development,Healthcare Representative,No,10999,High,3,3,3,15,27,0,0.055,Low
+1025,41,Research & Development,Manufacturing Director,No,5003,Mid,3,3,4,2,8,0,0.076,Low
+1026,39,Research & Development,Manufacturing Director,No,12742,High,4,3,4,21,21,0,0.116,Low
+1027,27,Research & Development,Manufacturing Director,No,4227,Mid,4,3,1,3,4,0,0.136,Low
+1028,35,Research & Development,Laboratory Technician,No,3917,Mid,4,2,2,3,3,0,0.259,Low
+1029,42,Sales,Manager,No,18303,High,3,4,4,1,21,0,0.083,Low
+1030,50,Research & Development,Laboratory Technician,No,2380,Low,4,3,1,1,8,0,0.349,Medium
+1032,59,Research & Development,Manufacturing Director,Yes,13726,High,4,3,3,5,30,0,0.222,Low
+1033,37,Research & Development,Healthcare Representative,No,4777,Mid,2,1,1,1,15,1,0.584,Medium
+1034,55,Research & Development,Healthcare Representative,Yes,6385,Mid,2,3,3,8,17,0,0.307,Medium
+1035,41,Research & Development,Research Director,No,19973,High,3,3,2,21,21,0,0.001,Low
+1036,38,Sales,Sales Executive,Yes,6861,High,4,3,2,1,19,0,0.749,High
+1037,26,Sales,Sales Executive,No,4969,Mid,1,3,2,2,7,1,0.711,High
+1038,52,Sales,Manager,No,19845,High,4,3,1,32,33,1,0.037,Low
+1039,44,Sales,Sales Executive,Yes,13320,High,4,3,4,12,23,0,0.13,Low
+1040,50,Sales,Sales Executive,No,6347,Mid,3,3,4,18,19,0,0.006,Low
+1042,36,Research & Development,Laboratory Technician,No,2743,Low,1,3,3,17,18,1,0.467,Medium
+1043,39,Research & Development,Manufacturing Director,Yes,10880,High,1,3,4,21,21,0,0.895,High
+1044,33,Sales,Sales Representative,No,2342,Low,4,2,2,2,3,0,0.344,Medium
+1045,45,Sales,Manager,No,17650,High,4,4,4,9,26,0,0.013,Low
+1046,32,Research & Development,Laboratory Technician,No,4025,Mid,3,3,4,8,10,0,0.53,Medium
+1047,34,Sales,Sales Executive,No,9725,High,4,2,2,15,16,0,0.094,Low
+1048,59,Sales,Manager,Yes,11904,High,4,1,2,6,14,0,0.512,Medium
+1049,45,Human Resources,Human Resources,No,2177,Low,2,3,2,6,6,0,0.746,High
+1050,53,Sales,Sales Executive,No,7525,High,2,3,3,15,30,0,0.273,Low
+1052,36,Research & Development,Laboratory Technician,No,4834,Mid,3,2,1,1,9,1,0.597,Medium
+1053,26,Research & Development,Research Scientist,Yes,2042,Low,1,3,1,3,6,1,0.938,High
+1055,34,Sales,Sales Representative,Yes,2220,Low,3,3,3,1,1,0,0.616,High
+1056,28,Sales,Sales Representative,No,1052,Low,2,3,4,1,1,0,0.357,Medium
+1060,38,Research & Development,Research Scientist,No,2821,Low,3,3,3,2,8,0,0.22,Low
+1061,50,Research & Development,Research Director,Yes,19237,High,3,2,2,8,29,0,0.184,Low
+1062,37,Research & Development,Healthcare Representative,No,4107,Mid,2,2,4,4,8,0,0.186,Low
+1066,40,Sales,Sales Executive,No,8396,High,1,2,3,7,8,0,0.552,Medium
+1068,26,Research & Development,Research Scientist,No,2007,Low,3,3,1,5,5,0,0.137,Low
+1069,46,Research & Development,Research Director,No,19627,High,4,3,4,2,23,0,0.004,Low
+1070,54,Sales,Sales Executive,No,10686,High,3,3,3,9,13,0,0.422,Medium
+1071,56,Research & Development,Research Scientist,No,2942,Low,3,3,1,5,18,0,0.085,Low
+1073,36,Research & Development,Manufacturing Director,No,8858,High,4,2,4,14,15,0,0.405,Medium
+1074,55,Research & Development,Manager,No,16756,High,1,4,3,9,31,0,0.044,Low
+1076,43,Sales,Sales Executive,No,10798,High,4,3,3,1,18,0,0.205,Low
+1077,20,Sales,Sales Representative,Yes,2323,Low,4,3,4,2,2,1,0.875,High
+1079,21,Research & Development,Laboratory Technician,No,1416,Low,1,2,3,1,1,1,0.774,High
+1080,46,Research & Development,Research Scientist,Yes,4615,Mid,1,3,4,16,19,0,0.314,Medium
+1081,51,Research & Development,Research Scientist,Yes,2461,Low,3,4,1,10,18,1,0.371,Medium
+1082,28,Research & Development,Healthcare Representative,No,8722,High,1,2,2,10,10,1,0.362,Medium
+1083,26,Research & Development,Laboratory Technician,No,3955,Mid,1,3,1,5,6,0,0.763,High
+1084,30,Research & Development,Manufacturing Director,No,9957,High,1,2,3,6,7,0,0.347,Medium
+1085,41,Research & Development,Research Scientist,No,3376,Low,3,3,2,10,10,0,0.05,Low
+1088,38,Research & Development,Healthcare Representative,No,8823,High,3,2,3,19,20,0,0.042,Low
+1092,40,Research & Development,Healthcare Representative,No,10322,High,4,3,1,11,14,0,0.595,Medium
+1094,27,Research & Development,Laboratory Technician,No,4621,Mid,3,3,1,3,3,0,0.178,Low
+1096,55,Research & Development,Manufacturing Director,No,10976,High,2,3,4,3,23,0,0.033,Low
+1097,28,Research & Development,Research Scientist,No,3660,Mid,3,4,3,8,10,0,0.087,Low
+1098,44,Human Resources,Human Resources,No,10482,High,1,3,2,20,24,1,0.642,High
+1099,33,Research & Development,Healthcare Representative,No,7119,High,4,3,4,3,9,0,0.029,Low
+1100,35,Sales,Sales Executive,Yes,9582,High,1,3,4,8,9,1,0.753,High
+1101,33,Research & Development,Research Scientist,No,4508,Mid,3,3,1,13,14,1,0.466,Medium
+1102,28,Research & Development,Laboratory Technician,No,2207,Low,3,2,1,4,4,0,0.285,Low
+1103,34,Research & Development,Healthcare Representative,No,7756,High,4,2,1,6,7,0,0.25,Low
+1105,37,Sales,Sales Executive,Yes,6694,High,4,3,4,1,8,0,0.166,Low
+1106,25,Research & Development,Laboratory Technician,Yes,3691,Mid,4,4,4,7,7,1,0.583,Medium
+1107,26,Research & Development,Laboratory Technician,No,2377,Low,3,2,1,1,1,1,0.719,High
+1108,33,Research & Development,Research Scientist,Yes,2313,Low,2,3,1,2,5,1,0.986,High
+1109,42,Research & Development,Manager,No,17665,High,1,3,4,22,23,0,0.224,Low
+1111,28,Research & Development,Laboratory Technician,No,2596,Low,2,3,1,1,1,1,0.732,High
+1113,50,Sales,Sales Executive,Yes,4728,Mid,3,3,4,0,5,1,0.594,Medium
+1114,33,Sales,Sales Executive,No,4302,Mid,2,3,4,3,4,0,0.151,Low
+1115,34,Research & Development,Research Scientist,No,2979,Low,4,3,3,0,6,0,0.022,Low
+1116,48,Research & Development,Manager,No,16885,High,4,2,1,5,27,0,0.011,Low
+1117,45,Sales,Sales Executive,No,5593,Mid,3,3,2,15,15,0,0.018,Low
+1118,52,Research & Development,Healthcare Representative,No,10445,High,2,3,2,8,18,0,0.316,Medium
+1119,38,Sales,Sales Executive,Yes,8740,High,3,3,3,8,9,0,0.378,Medium
+1120,29,Research & Development,Research Scientist,No,2514,Low,4,3,3,7,11,0,0.103,Low
+1121,28,Research & Development,Manufacturing Director,No,7655,High,2,2,4,9,10,0,0.01,Low
+1124,46,Sales,Manager,No,17465,High,3,3,1,12,23,0,0.091,Low
+1125,38,Sales,Sales Executive,No,7351,High,2,3,4,1,10,0,0.682,High
+1126,43,Research & Development,Manufacturing Director,No,10820,High,1,3,3,8,18,0,0.456,Medium
+1127,39,Research & Development,Healthcare Representative,No,12169,High,4,3,1,18,21,1,0.136,Low
+1128,40,Research & Development,Research Director,No,19626,High,3,4,3,20,21,0,0.093,Low
+1131,21,Research & Development,Research Scientist,Yes,2070,Low,2,4,4,2,2,0,0.636,High
+1132,39,Research & Development,Laboratory Technician,No,6782,High,2,2,3,5,9,0,0.558,Medium
+1133,36,Research & Development,Manufacturing Director,No,7779,High,4,3,1,11,18,0,0.113,Low
+1135,31,Sales,Sales Representative,No,2791,Low,4,3,3,2,3,0,0.494,Medium
+1136,28,Research & Development,Research Scientist,No,3201,Low,2,1,1,5,6,0,0.452,Medium
+1137,35,Sales,Sales Executive,No,4968,Mid,4,3,4,5,5,0,0.113,Low
+1138,49,Sales,Sales Executive,No,13120,High,2,3,4,9,22,0,0.449,Medium
+1140,34,Research & Development,Manufacturing Director,No,4033,Mid,3,2,4,3,5,0,0.263,Low
+1143,29,Research & Development,Research Scientist,No,3291,Low,2,2,4,7,8,0,0.109,Low
+1148,42,Research & Development,Laboratory Technician,No,4272,Mid,4,3,2,1,16,0,0.817,High
+1150,29,Research & Development,Manufacturing Director,Yes,5056,Mid,4,2,2,10,10,0,0.624,High
+1152,38,Human Resources,Human Resources,No,2844,Low,3,4,3,7,7,0,0.153,Low
+1154,28,Research & Development,Research Scientist,Yes,2703,Low,3,3,3,3,3,0,0.518,Medium
+1156,18,Research & Development,Laboratory Technician,No,1904,Low,3,3,3,0,0,1,0.345,Medium
+1157,33,Sales,Sales Executive,Yes,8224,High,1,3,1,5,6,1,0.884,High
+1158,41,Research & Development,Laboratory Technician,Yes,4766,Mid,4,3,2,1,6,0,0.804,High
+1160,31,Research & Development,Laboratory Technician,No,2610,Low,3,2,3,2,2,1,0.495,Medium
+1161,37,Research & Development,Healthcare Representative,No,5731,Mid,4,3,3,6,9,0,0.115,Low
+1162,27,Research & Development,Research Scientist,No,2539,Low,3,3,4,4,4,0,0.25,Low
+1163,34,Sales,Sales Executive,No,5714,Mid,3,2,2,6,6,0,0.154,Low
+1164,35,Human Resources,Human Resources,No,4323,Mid,3,1,3,5,6,0,0.685,High
+1165,29,Sales,Sales Executive,No,7336,High,1,1,4,11,11,1,0.225,Low
+1166,40,Research & Development,Research Director,No,13499,High,3,2,2,18,20,0,0.104,Low
+1167,42,Sales,Sales Executive,Yes,13758,High,1,2,3,21,22,1,0.969,High
+1171,42,Sales,Sales Executive,No,5155,Mid,1,4,2,6,9,0,0.612,High
+1172,35,Research & Development,Laboratory Technician,No,2258,Low,3,3,4,8,10,0,0.478,Medium
+1173,24,Research & Development,Laboratory Technician,No,3597,Low,2,3,4,4,6,0,0.825,High
+1175,28,Research & Development,Laboratory Technician,Yes,2515,Low,4,2,3,1,1,1,0.568,Medium
+1177,26,Research & Development,Laboratory Technician,No,4420,Mid,4,3,1,8,8,0,0.084,Low
+1179,30,Sales,Sales Executive,No,6578,High,3,3,3,10,10,0,0.445,Medium
+1180,40,Research & Development,Research Scientist,Yes,4422,Mid,4,1,3,1,16,0,0.855,High
+1182,35,Research & Development,Manufacturing Director,No,10274,High,2,4,3,7,15,0,0.039,Low
+1184,34,Research & Development,Healthcare Representative,No,5343,Mid,1,3,4,13,14,0,0.13,Low
+1185,35,Research & Development,Laboratory Technician,No,2376,Low,4,4,4,2,2,0,0.426,Medium
+1188,43,Sales,Sales Executive,No,5346,Mid,3,2,1,4,7,1,0.9,High
+1190,32,Sales,Sales Representative,No,2827,Low,1,3,3,1,1,0,0.109,Low
+1191,56,Research & Development,Manager,No,19943,High,1,3,4,5,28,0,0.062,Low
+1192,29,Research & Development,Laboratory Technician,No,3131,Low,4,3,2,10,10,0,0.06,Low
+1193,19,Research & Development,Research Scientist,No,2552,Low,1,3,3,1,1,0,0.401,Medium
+1195,45,Research & Development,Research Scientist,Yes,4477,Mid,3,2,1,3,7,0,0.512,Medium
+1196,37,Research & Development,Manufacturing Director,No,6474,Mid,4,2,4,14,14,0,0.047,Low
+1198,20,Research & Development,Laboratory Technician,No,3033,Low,3,2,1,2,2,0,0.878,High
+1200,44,Research & Development,Research Scientist,Yes,2936,Low,3,3,3,6,6,1,0.344,Medium
+1201,53,Research & Development,Manager,No,18606,High,3,3,4,7,26,0,0.002,Low
+1202,29,Research & Development,Research Scientist,Yes,2168,Low,4,2,2,5,6,0,0.718,High
+1203,22,Research & Development,Research Scientist,Yes,2853,Low,4,3,3,0,1,1,0.551,Medium
+1204,46,Sales,Manager,No,17048,High,1,3,3,26,28,0,0.658,High
+1206,44,Research & Development,Research Scientist,No,2290,Low,3,3,4,0,6,0,0.123,Low
+1207,33,Human Resources,Human Resources,No,3600,Low,3,3,2,5,5,0,0.21,Low
+1210,41,Research & Development,Research Scientist,No,2107,Low,1,1,1,1,5,1,0.617,High
+1211,30,Sales,Sales Executive,No,4115,Mid,1,3,3,4,8,0,0.322,Medium
+1212,40,Sales,Sales Executive,No,4327,Mid,2,3,2,0,5,0,0.482,Medium
+1215,50,Research & Development,Manager,No,17856,High,1,3,4,2,32,0,0.005,Low
+1216,28,Research & Development,Laboratory Technician,No,3196,Low,1,3,4,6,6,0,0.537,Medium
+1217,46,Research & Development,Research Director,No,19081,High,2,3,4,4,25,0,0.026,Low
+1218,35,Sales,Sales Executive,Yes,8966,High,1,3,3,7,15,0,0.258,Low
+1219,24,Research & Development,Laboratory Technician,No,2210,Low,2,1,4,1,1,1,0.4,Medium
+1220,33,Sales,Sales Executive,No,4539,Mid,3,2,2,10,10,0,0.468,Medium
+1221,36,Research & Development,Laboratory Technician,No,2741,Low,3,3,3,7,7,0,0.089,Low
+1224,30,Research & Development,Laboratory Technician,No,3491,Low,3,2,3,10,10,0,0.126,Low
+1225,44,Research & Development,Research Scientist,No,4541,Mid,4,3,4,20,20,0,0.126,Low
+1226,20,Sales,Sales Representative,No,2678,Low,4,3,3,2,2,0,0.652,High
+1228,46,Research & Development,Manufacturing Director,No,7379,High,4,2,4,6,12,0,0.022,Low
+1231,42,Human Resources,Human Resources,No,6272,Mid,1,4,4,4,10,0,0.073,Low
+1233,60,Sales,Sales Executive,Yes,5220,Mid,4,3,2,11,12,0,0.049,Low
+1234,32,Research & Development,Laboratory Technician,No,2743,Low,2,3,3,2,2,0,0.595,Medium
+1235,32,Research & Development,Research Scientist,Yes,4998,Mid,3,3,4,8,10,0,0.241,Low
+1237,36,Research & Development,Manufacturing Director,Yes,10252,High,1,3,3,7,17,0,0.755,High
+1238,33,Research & Development,Research Scientist,No,2781,Low,4,3,1,14,15,0,0.057,Low
+1239,40,Sales,Sales Executive,No,6852,High,2,4,2,5,7,0,0.7,High
+1240,25,Sales,Sales Executive,No,4950,Mid,4,3,3,4,5,0,0.255,Low
+1241,30,Research & Development,Research Scientist,Yes,3579,Low,2,3,4,11,12,0,0.286,Low
+1242,42,Research & Development,Research Director,Yes,13191,High,1,3,1,1,20,0,0.196,Low
+1243,35,Sales,Sales Executive,Yes,10377,High,4,2,3,13,16,0,0.111,Low
+1244,27,Research & Development,Research Scientist,Yes,2235,Low,1,2,1,9,9,0,0.722,High
+1245,54,Research & Development,Manufacturing Director,No,10502,High,3,1,4,5,33,0,0.017,Low
+1246,44,Research & Development,Research Scientist,No,2011,Low,4,3,1,10,10,0,0.039,Low
+1248,19,Research & Development,Research Scientist,Yes,1859,Low,2,4,1,1,1,1,0.78,High
+1249,29,Research & Development,Research Scientist,No,3760,Mid,4,3,1,3,3,0,0.031,Low
+1250,54,Research & Development,Research Director,No,17779,High,4,3,4,10,36,0,0.001,Low
+1251,31,Research & Development,Healthcare Representative,Yes,6833,High,1,2,3,6,6,0,0.434,Medium
+1252,31,Research & Development,Healthcare Representative,No,6812,High,1,3,3,10,10,0,0.188,Low
+1254,59,Sales,Sales Executive,No,5171,Mid,4,3,3,6,13,0,0.17,Low
+1255,43,Research & Development,Research Director,No,19740,High,4,3,3,8,25,0,0.003,Low
+1256,49,Research & Development,Manager,No,18711,High,3,4,1,1,23,0,0.027,Low
+1257,36,Research & Development,Research Scientist,No,3692,Mid,2,2,3,11,12,0,0.222,Low
+1258,48,Research & Development,Laboratory Technician,No,2559,Low,2,2,4,1,7,0,0.731,High
+1259,27,Research & Development,Research Scientist,No,2517,Low,3,3,1,5,5,0,0.073,Low
+1260,29,Research & Development,Healthcare Representative,Yes,6623,High,4,3,3,6,6,0,0.276,Low
+1263,48,Research & Development,Research Director,No,18265,High,4,4,4,1,25,0,0.013,Low
+1264,29,Research & Development,Research Director,No,16124,High,4,2,4,7,9,0,0.005,Low
+1265,34,Research & Development,Research Scientist,No,2585,Low,3,2,3,1,2,0,0.177,Low
+1267,44,Sales,Manager,No,18213,High,2,3,2,22,26,0,0.074,Low
+1268,33,Sales,Sales Executive,Yes,8380,High,3,3,4,9,10,0,0.043,Low
+1269,19,Research & Development,Research Scientist,Yes,2994,Low,4,3,2,1,1,0,0.793,High
+1270,23,Research & Development,Research Scientist,No,1223,Low,3,3,4,1,1,0,0.091,Low
+1273,25,Sales,Sales Representative,Yes,1118,Low,4,3,3,1,1,1,0.985,High
+1275,26,Research & Development,Research Scientist,Yes,2875,Low,4,2,3,8,8,0,0.71,High
+1277,45,Sales,Manager,Yes,18824,High,2,3,1,24,26,1,0.55,Medium
+1278,55,Research & Development,Healthcare Representative,Yes,13577,High,2,3,4,33,34,0,0.673,High
+1279,21,Research & Development,Laboratory Technician,No,2625,Low,3,1,1,2,2,1,0.969,High
+1280,46,Sales,Manager,No,18789,High,2,3,4,11,26,0,0.043,Low
+1281,34,Sales,Sales Executive,Yes,4538,Mid,1,3,3,3,4,0,0.748,High
+1282,51,Sales,Manager,Yes,19847,High,2,2,4,29,31,0,0.562,Medium
+1283,59,Research & Development,Manufacturing Director,No,10512,High,4,2,4,9,25,0,0.04,Low
+1285,34,Research & Development,Laboratory Technician,No,4444,Mid,2,4,3,11,15,0,0.243,Low
+1286,28,Research & Development,Laboratory Technician,Yes,2154,Low,3,2,4,4,5,0,0.871,High
+1288,44,Research & Development,Manager,No,19190,High,1,2,3,25,26,0,0.049,Low
+1289,34,Human Resources,Human Resources,No,4490,Mid,2,4,3,10,14,0,0.119,Low
+1291,35,Research & Development,Research Scientist,Yes,3506,Low,3,3,3,3,4,0,0.374,Medium
+1292,42,Research & Development,Research Scientist,Yes,2372,Low,2,3,2,1,18,0,0.525,Medium
+1293,43,Sales,Sales Executive,No,10231,High,4,4,4,21,23,0,0.321,Medium
+1294,36,Research & Development,Manufacturing Director,Yes,5410,Mid,2,3,3,16,18,0,0.37,Medium
+1295,44,Research & Development,Healthcare Representative,No,7978,High,4,3,1,10,10,1,0.025,Low
+1296,28,Research & Development,Laboratory Technician,Yes,3867,Mid,4,3,4,2,2,0,0.863,High
+1297,51,Research & Development,Laboratory Technician,No,2838,Low,3,2,2,7,8,0,0.772,High
+1298,30,Research & Development,Manufacturing Director,Yes,4695,Mid,3,3,3,8,10,0,0.08,Low
+1299,29,Research & Development,Laboratory Technician,Yes,3339,Low,3,3,2,7,10,1,0.738,High
+1301,28,Research & Development,Research Scientist,No,2080,Low,1,2,4,3,5,0,0.761,High
+1303,25,Research & Development,Research Scientist,No,2096,Low,2,2,4,2,2,0,0.205,Low
+1304,32,Sales,Sales Executive,No,6209,Mid,4,4,3,10,10,0,0.013,Low
+1306,45,Research & Development,Manager,No,18061,High,2,3,2,0,22,0,0.306,Medium
+1307,39,Research & Development,Manager,Yes,17123,High,2,3,3,19,21,0,0.861,High
+1308,58,Research & Development,Research Scientist,No,2372,Low,3,3,1,2,2,0,0.082,Low
+1309,32,Research & Development,Laboratory Technician,No,4883,Mid,3,3,4,10,10,1,0.157,Low
+1310,39,Research & Development,Research Scientist,No,3904,Mid,1,3,3,5,6,1,0.545,Medium
+1311,30,Research & Development,Laboratory Technician,No,4627,Mid,4,3,1,9,10,0,0.784,High
+1312,36,Research & Development,Healthcare Representative,No,7094,High,3,3,4,7,10,0,0.075,Low
+1314,46,Human Resources,Human Resources,No,3423,Low,1,4,4,7,10,0,0.224,Low
+1315,28,Research & Development,Laboratory Technician,No,6674,High,4,3,3,9,10,0,0.058,Low
+1317,50,Research & Development,Research Director,Yes,16880,High,1,3,4,3,25,0,0.079,Low
+1318,40,Sales,Sales Executive,Yes,9094,High,2,3,4,5,9,1,0.938,High
+1319,52,Sales,Sales Executive,Yes,8446,High,2,2,2,8,10,1,0.92,High
+1321,30,Research & Development,Manager,Yes,11916,High,1,3,2,9,9,0,0.286,Low
+1322,39,Research & Development,Manufacturing Director,No,4534,Mid,3,3,1,8,9,0,0.144,Low
+1324,31,Sales,Sales Executive,Yes,9852,High,3,2,4,10,10,0,0.09,Low
+1329,41,Sales,Sales Executive,No,6151,Mid,2,3,3,19,19,0,0.839,High
+1331,31,Sales,Sales Representative,Yes,2302,Low,2,4,4,3,3,1,0.904,High
+1333,44,Research & Development,Laboratory Technician,No,2362,Low,1,4,1,3,10,1,0.36,Medium
+1334,42,Research & Development,Manager,Yes,17861,High,3,2,3,20,21,0,0.029,Low
+1336,55,Research & Development,Manager,No,19187,High,3,3,4,19,23,0,0.018,Low
+1338,56,Human Resources,Manager,No,19717,High,2,3,4,7,36,0,0.032,Low
+1340,40,Research & Development,Research Scientist,No,3544,Low,3,3,3,4,6,0,0.224,Low
+1344,34,Research & Development,Healthcare Representative,No,8500,High,4,2,4,9,10,0,0.01,Low
+1346,40,Research & Development,Research Scientist,No,4661,Mid,4,3,3,9,9,0,0.101,Low
+1349,41,Sales,Sales Executive,No,4103,Mid,1,3,3,9,10,0,0.081,Low
+1350,35,Research & Development,Research Scientist,Yes,4249,Mid,3,3,3,9,9,0,0.854,High
+1352,51,Human Resources,Manager,Yes,14026,High,2,3,3,33,33,0,0.073,Low
+1355,38,Sales,Sales Executive,No,6893,High,1,3,2,7,11,0,0.059,Low
+1356,34,Sales,Sales Executive,No,6125,Mid,1,4,3,10,10,0,0.276,Low
+1358,25,Research & Development,Laboratory Technician,No,3669,Mid,4,2,4,3,7,0,0.159,Low
+1360,58,Research & Development,Manufacturing Director,Yes,10008,High,1,2,3,10,31,1,0.255,Low
+1361,40,Research & Development,Laboratory Technician,No,2387,Low,2,3,2,4,7,0,0.223,Low
+1362,36,Sales,Sales Executive,No,4639,Mid,1,2,1,15,17,0,0.48,Medium
+1363,48,Research & Development,Manufacturing Director,No,7898,High,4,3,4,10,11,0,0.033,Low
+1364,27,Sales,Sales Representative,No,2534,Low,4,3,3,1,5,0,0.268,Low
+1367,51,Research & Development,Manufacturing Director,No,13142,High,2,2,4,5,29,0,0.374,Medium
+1368,18,Research & Development,Laboratory Technician,No,1611,Low,4,4,4,0,0,0,0.014,Low
+1369,35,Research & Development,Laboratory Technician,No,5363,Mid,4,3,4,9,10,0,0.197,Low
+1371,27,Sales,Sales Executive,No,5071,Mid,4,3,4,6,8,0,0.714,High
+1372,55,Sales,Sales Executive,Yes,13695,High,3,2,1,19,24,1,0.88,High
+1373,56,Research & Development,Manufacturing Director,Yes,13402,High,2,3,4,19,33,0,0.702,High
+1374,34,Research & Development,Research Scientist,No,2029,Low,3,3,1,5,5,0,0.192,Low
+1375,40,Research & Development,Healthcare Representative,No,6377,Mid,3,3,2,12,15,0,0.059,Low
+1377,34,Research & Development,Laboratory Technician,No,5429,Mid,3,3,2,8,10,0,0.733,High
+1379,31,Sales,Sales Representative,No,2785,Low,4,4,3,1,3,1,0.808,High
+1380,35,Sales,Sales Executive,Yes,4614,Mid,3,2,4,4,5,1,0.695,High
+1382,38,Research & Development,Research Scientist,No,2610,Low,3,3,4,4,4,0,0.029,Low
+1383,34,Research & Development,Healthcare Representative,No,6687,High,4,4,3,14,14,0,0.081,Low
+1387,28,Sales,Sales Executive,No,4724,Mid,1,3,3,5,5,0,0.645,High
+1389,31,Research & Development,Manufacturing Director,Yes,6179,Mid,3,2,4,10,10,1,0.286,Low
+1390,39,Sales,Sales Executive,Yes,6120,Mid,4,4,1,5,8,0,0.449,Medium
+1391,51,Sales,Sales Executive,No,10596,High,2,3,2,4,14,0,0.552,Medium
+1392,41,Research & Development,Research Scientist,Yes,5467,Mid,4,2,4,6,12,0,0.38,Medium
+1394,37,Research & Development,Research Scientist,Yes,2996,Low,3,3,3,6,8,0,0.551,Medium
+1395,33,Sales,Sales Executive,No,9998,High,4,4,2,5,8,0,0.379,Medium
+1396,32,Sales,Sales Executive,Yes,4078,Mid,2,2,3,3,4,0,0.764,High
+1397,39,Research & Development,Healthcare Representative,No,10920,High,3,3,3,6,13,0,0.01,Low
+1399,25,Sales,Sales Executive,No,6232,Mid,3,2,1,3,6,0,0.406,Medium
+1401,52,Research & Development,Manufacturing Director,Yes,13247,High,3,2,4,5,24,0,0.345,Medium
+1402,43,Research & Development,Research Scientist,Yes,4081,Mid,3,1,1,20,20,0,0.764,High
+1403,27,Sales,Sales Executive,Yes,5769,Mid,4,3,4,6,6,0,0.511,Medium
+1405,27,Research & Development,Research Scientist,Yes,2394,Low,3,3,4,8,8,1,0.744,High
+1407,26,Research & Development,Research Scientist,No,3904,Mid,4,3,1,4,5,0,0.531,Medium
+1408,42,Human Resources,Manager,No,16799,High,1,3,3,20,21,0,0.012,Low
+1409,52,Research & Development,Laboratory Technician,No,2950,Low,1,1,3,5,12,0,0.625,High
+1411,37,Research & Development,Laboratory Technician,No,3629,Low,3,3,1,3,8,0,0.492,Medium
+1412,35,Research & Development,Manufacturing Director,No,9362,High,4,3,3,2,10,0,0.38,Medium
+1415,25,Research & Development,Laboratory Technician,No,3229,Low,4,2,1,3,7,0,0.766,High
+1417,26,Research & Development,Laboratory Technician,No,3578,Low,1,3,3,7,8,0,0.23,Low
+1419,29,Human Resources,Human Resources,No,7988,High,1,2,2,10,10,0,0.717,High
+1420,49,Research & Development,Laboratory Technician,No,4284,Mid,1,3,1,4,20,1,0.905,High
+1421,29,Research & Development,Healthcare Representative,Yes,7553,High,4,3,3,8,9,1,0.777,High
+1422,54,Research & Development,Research Director,No,17328,High,4,2,4,20,29,0,0.019,Low
+1423,58,Research & Development,Research Director,Yes,19701,High,1,3,4,9,32,0,0.009,Low
+1424,55,Research & Development,Research Director,No,14732,High,4,4,2,7,31,0,0.0,Low
+1425,36,Sales,Sales Executive,Yes,9278,High,2,3,1,5,15,0,0.744,High
+1427,31,Sales,Sales Representative,No,1359,Low,3,3,2,1,1,1,0.877,High
+1428,30,Sales,Sales Executive,No,4779,Mid,1,3,4,3,8,0,0.264,Low
+1430,31,Research & Development,Research Director,No,16422,High,2,4,1,3,9,0,0.137,Low
+1431,34,Research & Development,Research Scientist,No,2996,Low,1,3,4,4,10,0,0.133,Low
+1433,31,Research & Development,Research Scientist,No,1261,Low,2,4,1,1,1,1,0.482,Medium
+1434,27,Research & Development,Laboratory Technician,No,2099,Low,1,4,2,5,6,0,0.491,Medium
+1435,36,Research & Development,Laboratory Technician,No,5810,Mid,4,2,1,10,10,0,0.626,High
+1436,36,Sales,Sales Executive,No,5647,Mid,1,2,3,3,11,0,0.655,High
+1438,47,Research & Development,Research Scientist,No,3420,Low,4,2,1,6,17,0,0.513,Medium
+1439,25,Sales,Sales Representative,No,4400,Mid,1,3,1,3,6,1,0.955,High
+1440,37,Research & Development,Laboratory Technician,No,3500,Low,3,1,3,6,7,0,0.419,Medium
+1441,56,Research & Development,Research Scientist,No,2066,Low,1,4,1,3,5,0,0.097,Low
+1443,47,Research & Development,Research Director,No,17169,High,3,4,1,20,26,0,0.005,Low
+1445,24,Sales,Sales Executive,Yes,4162,Mid,3,3,4,5,5,0,0.181,Low
+1446,32,Sales,Sales Executive,No,9204,High,4,2,4,4,7,0,0.065,Low
+1447,34,Research & Development,Laboratory Technician,No,3294,Low,2,2,4,5,7,0,0.41,Medium
+1448,41,Research & Development,Research Scientist,Yes,2127,Low,3,2,2,4,7,0,0.448,Medium
+1449,40,Research & Development,Laboratory Technician,No,3975,Mid,3,4,3,8,11,0,0.018,Low
+1453,31,Sales,Sales Executive,No,10793,High,4,3,1,13,13,0,0.239,Low
+1457,46,Sales,Sales Executive,No,10096,High,4,4,1,7,28,1,0.087,Low
+1458,39,Research & Development,Laboratory Technician,Yes,3646,Mid,1,4,1,1,11,1,0.768,High
+1459,31,Research & Development,Manufacturing Director,No,7446,High,2,3,3,10,10,1,0.046,Low
+1460,45,Research & Development,Healthcare Representative,Yes,10851,High,1,3,2,7,24,0,0.166,Low
+1461,31,Human Resources,Human Resources,No,2109,Low,2,3,4,3,8,0,0.28,Low
+1464,31,Research & Development,Laboratory Technician,Yes,3722,Mid,4,1,2,2,7,1,0.955,High
+1465,45,Research & Development,Manufacturing Director,Yes,9380,High,4,4,2,3,10,0,0.648,High
+1466,48,Sales,Sales Executive,No,5486,Mid,1,3,3,2,15,0,0.167,Low
+1467,34,Human Resources,Human Resources,No,2742,Low,3,3,1,2,2,1,0.431,Medium
+1468,40,Research & Development,Research Director,No,13757,High,2,3,4,9,16,0,0.001,Low
+1469,28,Sales,Sales Executive,No,8463,High,1,3,4,5,6,0,0.216,Low
+1471,44,Research & Development,Laboratory Technician,No,3162,Low,3,3,3,5,7,0,0.172,Low
+1472,53,Research & Development,Research Director,No,16598,High,2,2,4,9,35,0,0.016,Low
+1473,49,Research & Development,Healthcare Representative,No,6651,High,3,2,1,3,20,0,0.161,Low
+1474,40,Research & Development,Research Scientist,No,2345,Low,3,4,3,3,8,0,0.03,Low
+1475,44,Research & Development,Research Scientist,No,3420,Low,2,2,4,5,6,0,0.287,Low
+1477,33,Sales,Sales Executive,No,4373,Mid,1,3,4,4,5,0,0.402,Medium
+1478,34,Sales,Sales Executive,No,4759,Mid,1,3,4,13,15,0,0.114,Low
+1479,30,Sales,Sales Executive,No,5301,Mid,3,2,4,2,4,0,0.279,Low
+1480,42,Research & Development,Laboratory Technician,No,3673,Mid,4,3,1,12,12,0,0.494,Medium
+1481,44,Sales,Sales Executive,No,4768,Mid,3,2,1,1,11,0,0.536,Medium
+1482,30,Research & Development,Research Scientist,No,1274,Low,3,2,3,1,1,0,0.144,Low
+1483,57,Research & Development,Research Scientist,No,4900,Mid,3,2,2,12,13,0,0.029,Low
+1484,49,Research & Development,Healthcare Representative,No,10466,High,2,3,3,8,29,0,0.005,Low
+1485,34,Research & Development,Research Director,No,17007,High,1,2,2,14,16,0,0.109,Low
+1486,28,Sales,Sales Representative,No,2909,Low,3,4,1,3,5,1,0.752,High
+1487,29,Sales,Sales Executive,No,5765,Mid,2,1,1,5,7,1,0.986,High
+1489,34,Sales,Sales Executive,Yes,4599,Mid,2,4,1,15,16,1,0.872,High
+1492,35,Sales,Sales Representative,No,2404,Low,3,3,4,1,1,0,0.506,Medium
+1494,24,Research & Development,Laboratory Technician,Yes,3172,Low,1,2,2,0,4,1,0.994,High
+1495,24,Sales,Sales Representative,No,2033,Low,2,3,4,1,1,0,0.223,Low
+1496,44,Research & Development,Manufacturing Director,Yes,10209,High,3,2,2,2,16,0,0.889,High
+1497,29,Sales,Sales Executive,No,8620,High,3,3,3,10,10,0,0.095,Low
+1499,30,Human Resources,Human Resources,No,2064,Low,3,4,3,5,6,0,0.085,Low
+1501,55,Research & Development,Healthcare Representative,Yes,4035,Mid,3,3,4,3,4,0,0.178,Low
+1502,33,Research & Development,Laboratory Technician,No,3838,Mid,2,3,1,5,8,0,0.687,High
+1503,47,Sales,Sales Executive,Yes,4591,Mid,3,2,3,5,11,0,0.454,Medium
+1504,28,Research & Development,Laboratory Technician,No,2561,Low,1,2,3,0,8,1,0.928,High
+1506,28,Research & Development,Research Scientist,No,1563,Low,3,1,1,1,1,0,0.283,Low
+1507,28,Sales,Sales Executive,No,4898,Mid,1,3,3,4,5,0,0.583,Medium
+1509,49,Research & Development,Laboratory Technician,No,4789,Mid,1,3,3,3,10,0,0.469,Medium
+1513,29,Research & Development,Laboratory Technician,No,3180,Low,2,3,4,3,4,0,0.189,Low
+1514,28,Research & Development,Manufacturing Director,No,6549,High,2,2,3,8,8,0,0.42,Medium
+1515,33,Research & Development,Healthcare Representative,Yes,6388,Mid,3,3,4,0,14,0,0.285,Low
+1516,32,Research & Development,Manager,No,11244,High,4,4,3,5,10,0,0.045,Low
+1520,54,Research & Development,Manager,No,16032,High,4,3,2,14,26,0,0.004,Low
+1522,29,Research & Development,Research Scientist,No,2362,Low,1,1,1,9,11,1,0.85,High
+1523,44,Research & Development,Research Director,No,16328,High,1,4,4,20,24,0,0.154,Low
+1525,39,Research & Development,Manufacturing Director,No,8376,High,2,3,2,2,9,0,0.186,Low
+1527,46,Sales,Manager,No,16606,High,2,4,3,13,23,0,0.05,Low
+1529,35,Research & Development,Healthcare Representative,No,8606,High,2,1,4,11,11,0,0.158,Low
+1533,23,Research & Development,Laboratory Technician,No,2272,Low,3,3,1,4,5,0,0.771,High
+1534,40,Research & Development,Laboratory Technician,No,2018,Low,1,1,4,5,15,1,0.601,High
+1535,34,Sales,Sales Executive,Yes,7083,High,3,3,4,10,10,0,0.751,High
+1537,31,Research & Development,Research Scientist,No,4084,Mid,3,1,4,7,7,1,0.524,Medium
+1539,50,Research & Development,Research Director,Yes,14411,High,4,3,3,32,32,0,0.966,High
+1541,34,Sales,Sales Representative,Yes,2308,Low,3,3,2,11,12,0,0.833,High
+1542,42,Research & Development,Laboratory Technician,No,4841,Mid,2,3,3,1,4,0,0.521,Medium
+1543,37,Research & Development,Research Scientist,No,4285,Mid,4,3,1,10,10,0,0.121,Low
+1544,29,Research & Development,Healthcare Representative,No,9715,High,1,3,3,7,9,0,0.06,Low
+1545,33,Research & Development,Manufacturing Director,No,4320,Mid,2,3,4,5,5,0,0.266,Low
+1546,45,Research & Development,Research Scientist,No,2132,Low,4,3,4,5,8,0,0.108,Low
+1547,42,Research & Development,Healthcare Representative,Yes,10124,High,4,1,4,20,24,0,0.708,High
+1548,40,Sales,Sales Executive,No,5473,Mid,1,4,1,8,9,0,0.54,Medium
+1549,33,Research & Development,Laboratory Technician,Yes,5207,Mid,3,3,2,15,15,0,0.735,High
+1550,40,Human Resources,Manager,Yes,16437,High,4,3,3,21,21,0,0.231,Low
+1551,24,Research & Development,Laboratory Technician,No,2296,Low,1,3,3,1,2,0,0.782,High
+1552,40,Research & Development,Healthcare Representative,Yes,4069,Mid,4,3,4,2,8,0,0.048,Low
+1553,45,Research & Development,Healthcare Representative,No,7441,High,2,3,1,10,10,0,0.224,Low
+1554,35,Sales,Sales Representative,No,2430,Low,3,3,2,5,6,0,0.446,Medium
+1555,32,Research & Development,Research Scientist,No,5878,Mid,2,3,4,7,12,0,0.174,Low
+1556,36,Sales,Sales Representative,Yes,2644,Low,4,2,3,3,7,0,0.799,High
+1557,48,Sales,Sales Executive,No,6439,Mid,3,3,3,8,18,0,0.079,Low
+1558,29,Research & Development,Research Scientist,No,2451,Low,3,2,3,1,5,0,0.45,Medium
+1560,33,Sales,Sales Executive,No,6392,Mid,1,1,1,2,8,0,0.341,Medium
+1562,30,Sales,Sales Executive,No,9714,High,1,3,2,10,10,1,0.277,Low
+1563,38,Human Resources,Human Resources,No,6077,Mid,3,3,3,6,10,0,0.64,High
+1564,35,Research & Development,Laboratory Technician,No,2450,Low,1,3,4,3,3,0,0.597,Medium
+1568,30,Sales,Sales Executive,No,9250,High,2,3,3,4,9,0,0.703,High
+1569,35,Research & Development,Laboratory Technician,Yes,2074,Low,1,3,1,1,1,1,0.777,High
+1572,53,Research & Development,Manufacturing Director,No,10169,High,4,3,3,33,34,1,0.018,Low
+1573,38,Research & Development,Manufacturing Director,No,4855,Mid,2,3,3,5,7,1,0.052,Low
+1574,32,Research & Development,Research Scientist,No,4087,Mid,1,2,4,6,9,0,0.214,Low
+1576,48,Research & Development,Research Scientist,No,2367,Low,1,2,3,8,10,0,0.611,High
+1577,34,Research & Development,Research Scientist,No,2972,Low,4,1,1,1,1,0,0.62,High
+1578,55,Sales,Manager,No,19586,High,4,3,3,36,36,0,0.104,Low
+1580,34,Research & Development,Research Scientist,No,5484,Mid,4,2,2,2,9,0,0.233,Low
+1581,26,Research & Development,Research Scientist,No,2061,Low,4,3,1,1,1,0,0.131,Low
+1582,38,Sales,Sales Executive,No,9924,High,2,3,3,9,10,0,0.121,Low
+1583,38,Sales,Sales Executive,No,4198,Mid,2,4,2,3,8,0,0.412,Medium
+1585,36,Sales,Sales Executive,No,6815,High,3,3,2,1,15,0,0.342,Medium
+1586,29,Research & Development,Laboratory Technician,Yes,4723,Mid,1,3,2,10,10,0,0.638,High
+1587,35,Research & Development,Healthcare Representative,Yes,6142,Mid,3,3,1,5,10,0,0.62,High
+1588,39,Sales,Sales Executive,No,8237,High,3,3,4,7,11,0,0.125,Low
+1590,29,Research & Development,Healthcare Representative,No,8853,High,4,4,1,6,6,0,0.043,Low
+1591,50,Sales,Manager,Yes,19331,High,3,3,3,1,27,0,0.192,Low
+1592,23,Research & Development,Research Scientist,No,2073,Low,3,3,4,2,4,0,0.179,Low
+1594,36,Research & Development,Laboratory Technician,Yes,5562,Mid,1,3,1,3,9,0,0.858,High
+1595,42,Research & Development,Manager,No,19613,High,4,3,4,1,24,0,0.08,Low
+1596,35,Research & Development,Laboratory Technician,No,3407,Low,3,2,2,10,10,0,0.244,Low
+1597,34,Research & Development,Healthcare Representative,No,5063,Mid,3,2,4,8,8,0,0.648,High
+1598,40,Sales,Sales Executive,No,4639,Mid,1,3,4,5,5,0,0.245,Low
+1599,43,Research & Development,Laboratory Technician,No,4876,Mid,2,3,4,6,8,0,0.58,Medium
+1601,35,Research & Development,Laboratory Technician,No,2690,Low,4,2,3,1,1,0,0.131,Low
+1602,46,Sales,Manager,No,17567,High,1,1,4,26,27,0,0.086,Low
+1604,28,Research & Development,Laboratory Technician,Yes,2408,Low,2,3,3,1,1,1,0.856,High
+1605,22,Research & Development,Research Scientist,Yes,2814,Low,3,2,2,4,4,0,0.799,High
+1606,50,Research & Development,Healthcare Representative,Yes,11245,High,3,3,2,30,32,0,0.828,High
+1607,32,Research & Development,Research Scientist,No,3312,Low,4,3,2,3,6,0,0.033,Low
+1608,44,Research & Development,Research Director,Yes,19049,High,4,2,2,22,23,0,0.02,Low
+1609,30,Research & Development,Research Scientist,No,2141,Low,2,2,2,6,6,0,0.431,Medium
+1611,45,Research & Development,Laboratory Technician,Yes,5769,Mid,1,3,3,10,10,0,0.9,High
+1612,45,Sales,Sales Executive,No,4385,Mid,1,3,1,10,10,0,0.628,High
+1613,31,Sales,Sales Executive,No,5332,Mid,1,3,4,5,10,0,0.606,High
+1614,36,Research & Development,Manufacturing Director,Yes,4663,Mid,3,3,3,3,7,0,0.722,High
+1615,34,Research & Development,Manufacturing Director,No,4724,Mid,4,3,3,9,9,0,0.075,Low
+1617,49,Research & Development,Laboratory Technician,No,3211,Low,1,2,3,9,10,0,0.274,Low
+1618,39,Research & Development,Manufacturing Director,No,5377,Mid,1,3,2,7,10,0,0.101,Low
+1619,27,Research & Development,Laboratory Technician,No,4066,Mid,1,3,4,7,7,0,0.109,Low
+1621,35,Research & Development,Research Scientist,No,5208,Mid,1,3,2,16,16,0,0.058,Low
+1622,28,Research & Development,Manufacturing Director,No,4877,Mid,1,2,2,5,6,0,0.377,Medium
+1623,21,Research & Development,Research Scientist,No,3117,Low,4,3,3,2,3,0,0.227,Low
+1624,18,Sales,Sales Representative,Yes,1569,Low,4,4,2,0,0,1,0.962,High
+1625,47,Human Resources,Manager,No,19658,High,3,3,4,5,27,0,0.004,Low
+1627,39,Research & Development,Laboratory Technician,No,3069,Low,3,3,3,10,11,0,0.041,Low
+1628,40,Research & Development,Manufacturing Director,No,10435,High,3,3,1,18,18,0,0.22,Low
+1630,35,Research & Development,Healthcare Representative,No,4148,Mid,3,3,3,14,15,0,0.002,Low
+1631,37,Research & Development,Manufacturing Director,No,5768,Mid,3,2,3,4,9,0,0.241,Low
+1633,39,Research & Development,Manufacturing Director,No,5042,Mid,3,1,1,9,10,0,0.492,Medium
+1635,45,Research & Development,Manufacturing Director,No,5770,Mid,4,3,4,10,10,0,0.014,Low
+1638,38,Research & Development,Manufacturing Director,Yes,7756,High,3,4,4,5,10,0,0.052,Low
+1639,35,Sales,Sales Executive,No,10306,High,1,3,4,13,15,1,0.581,Medium
+1640,37,Research & Development,Research Scientist,No,3936,Mid,2,1,2,8,8,0,0.57,Medium
+1641,40,Research & Development,Manufacturing Director,Yes,7945,High,4,2,3,4,18,0,0.613,High
+1642,44,Human Resources,Human Resources,Yes,5743,Mid,4,3,1,10,14,0,0.834,High
+1644,48,Research & Development,Manager,No,15202,High,4,3,3,2,23,0,0.039,Low
+1645,35,Sales,Sales Executive,Yes,5440,Mid,4,2,1,2,7,1,0.841,High
+1646,24,Research & Development,Research Scientist,Yes,3760,Mid,4,3,1,6,6,0,0.918,High
+1647,27,Research & Development,Research Scientist,No,3517,Low,3,3,2,3,5,0,0.36,Medium
+1648,27,Research & Development,Research Scientist,No,2580,Low,4,2,4,4,6,0,0.46,Medium
+1649,40,Research & Development,Laboratory Technician,Yes,2166,Low,1,1,1,4,10,1,0.974,High
+1650,29,Sales,Sales Executive,No,5869,Mid,3,3,3,5,8,0,0.771,High
+1651,36,Research & Development,Healthcare Representative,No,8008,High,1,3,2,3,9,0,0.081,Low
+1653,25,Research & Development,Manufacturing Director,No,5206,Mid,3,3,4,7,7,0,0.006,Low
+1654,39,Research & Development,Manufacturing Director,No,5295,Mid,2,3,4,5,7,0,0.166,Low
+1655,49,Research & Development,Research Director,No,16413,High,2,3,1,4,27,0,0.024,Low
+1656,50,Research & Development,Research Director,No,13269,High,1,3,4,14,19,0,0.002,Low
+1657,20,Sales,Sales Representative,No,2783,Low,3,3,3,2,2,0,0.587,Medium
+1658,34,Research & Development,Research Scientist,No,5433,Mid,2,3,4,11,11,0,0.025,Low
+1659,36,Research & Development,Laboratory Technician,No,2013,Low,2,3,1,4,15,0,0.467,Medium
+1661,49,Research & Development,Healthcare Representative,Yes,13966,High,3,3,3,15,30,0,0.061,Low
+1662,36,Research & Development,Manufacturing Director,No,4374,Mid,3,3,4,3,4,0,0.019,Low
+1664,36,Research & Development,Healthcare Representative,No,6842,High,1,3,4,5,13,0,0.038,Low
+1665,54,Research & Development,Manager,No,17426,High,3,3,2,10,36,0,0.003,Low
+1666,43,Research & Development,Research Director,No,17603,High,3,3,3,14,14,0,0.012,Low
+1667,35,Sales,Sales Executive,Yes,4581,Mid,4,4,4,11,13,1,0.69,High
+1668,38,Research & Development,Research Scientist,No,4735,Mid,4,4,4,13,19,0,0.007,Low
+1669,29,Sales,Sales Executive,Yes,4187,Mid,2,2,1,10,10,0,0.71,High
+1670,33,Sales,Sales Executive,No,5505,Mid,4,3,4,6,6,0,0.024,Low
+1671,32,Research & Development,Research Scientist,No,5470,Mid,2,2,4,9,10,0,0.03,Low
+1673,31,Sales,Sales Executive,No,5476,Mid,4,3,1,10,10,0,0.268,Low
+1674,49,Research & Development,Laboratory Technician,Yes,2587,Low,1,2,4,2,17,0,0.638,High
+1675,38,Research & Development,Laboratory Technician,No,2440,Low,2,3,4,4,4,0,0.689,High
+1676,47,Sales,Manager,No,15972,High,2,3,2,3,29,0,0.013,Low
+1677,49,Research & Development,Manager,No,15379,High,3,3,3,8,23,0,0.053,Low
+1678,41,Sales,Sales Executive,Yes,7082,High,3,3,4,2,21,0,0.507,Medium
+1680,20,Sales,Sales Representative,No,2728,Low,1,3,4,2,2,0,0.795,High
+1681,33,Sales,Sales Executive,Yes,5368,Mid,4,3,3,6,7,0,0.168,Low
+1682,36,Research & Development,Healthcare Representative,No,5347,Mid,3,2,1,3,10,0,0.362,Medium
+1683,44,Human Resources,Human Resources,Yes,3195,Low,4,3,3,2,8,0,0.273,Low
+1684,23,Research & Development,Laboratory Technician,Yes,3989,Mid,3,3,4,5,5,1,0.832,High
+1687,38,Research & Development,Laboratory Technician,No,3306,Low,3,2,4,0,7,0,0.091,Low
+1689,53,Research & Development,Healthcare Representative,No,7005,High,4,3,2,4,11,0,0.096,Low
+1691,48,Sales,Sales Representative,Yes,2655,Low,3,3,4,9,19,1,0.601,High
+1692,32,Research & Development,Laboratory Technician,No,1393,Low,2,3,4,1,1,1,0.375,Medium
+1693,26,Research & Development,Laboratory Technician,No,2570,Low,4,3,4,7,7,0,0.018,Low
+1694,55,Research & Development,Research Scientist,No,3537,Low,2,3,1,4,8,0,0.711,High
+1696,34,Research & Development,Laboratory Technician,No,3986,Mid,4,4,2,15,15,0,0.04,Low
+1697,60,Research & Development,Healthcare Representative,No,10883,High,4,4,3,1,19,0,0.009,Low
+1698,33,Research & Development,Laboratory Technician,No,2028,Low,2,3,2,14,14,0,0.031,Low
+1700,37,Sales,Sales Executive,No,9525,High,4,2,3,6,6,0,0.276,Low
+1701,34,Research & Development,Research Scientist,No,2929,Low,4,3,2,10,10,0,0.176,Low
+1702,23,Sales,Sales Representative,Yes,2275,Low,4,3,3,3,3,1,0.652,High
+1703,44,Research & Development,Healthcare Representative,Yes,7879,High,4,3,3,8,9,0,0.054,Low
+1704,35,Research & Development,Research Scientist,Yes,4930,Mid,4,4,1,5,6,0,0.721,High
+1706,43,Sales,Sales Executive,Yes,7847,High,4,3,4,10,10,0,0.207,Low
+1707,24,Research & Development,Research Scientist,No,4401,Mid,3,3,3,5,5,0,0.063,Low
+1708,41,Sales,Sales Executive,No,9241,High,3,3,4,10,10,0,0.335,Medium
+1709,29,Research & Development,Laboratory Technician,No,2974,Low,3,3,4,5,9,0,0.434,Medium
+1710,36,Sales,Sales Representative,No,4502,Mid,4,2,3,13,17,0,0.526,Medium
+1712,45,Research & Development,Healthcare Representative,No,10748,High,3,2,3,23,25,0,0.033,Low
+1714,24,Human Resources,Human Resources,No,1555,Low,3,3,4,1,1,1,0.682,High
+1716,47,Sales,Sales Executive,No,12936,High,3,1,3,23,25,1,0.976,High
+1718,26,Research & Development,Laboratory Technician,No,2305,Low,3,4,4,3,3,0,0.325,Medium
+1719,45,Research & Development,Research Director,No,16704,High,2,3,4,21,21,0,0.551,Medium
+1720,32,Research & Development,Research Scientist,No,3433,Low,3,2,1,5,10,0,0.758,High
+1721,31,Research & Development,Laboratory Technician,No,3477,Low,3,4,2,5,6,0,0.155,Low
+1722,41,Human Resources,Human Resources,No,6430,Mid,2,3,3,3,10,0,0.296,Low
+1724,40,Research & Development,Manufacturing Director,Yes,6516,Mid,1,3,2,1,18,0,0.509,Medium
+1725,24,Research & Development,Laboratory Technician,No,3907,Mid,1,4,2,6,6,0,0.589,Medium
+1727,46,Research & Development,Healthcare Representative,No,5562,Mid,2,3,3,10,19,0,0.077,Low
+1728,35,Research & Development,Manufacturing Director,No,6883,High,3,3,4,7,17,0,0.023,Low
+1729,30,Research & Development,Research Scientist,No,2862,Low,4,2,2,10,10,0,0.26,Low
+1731,47,Sales,Sales Executive,No,4978,Mid,2,1,3,1,4,0,0.32,Medium
+1732,46,Sales,Sales Executive,Yes,10368,High,4,2,3,10,13,0,0.162,Low
+1733,36,Sales,Sales Executive,Yes,6134,Mid,1,3,2,2,16,1,0.772,High
+1734,32,Sales,Sales Executive,No,6735,High,2,3,1,0,10,1,0.845,High
+1735,23,Research & Development,Laboratory Technician,No,3295,Low,2,1,3,3,3,0,0.729,High
+1736,31,Research & Development,Manufacturing Director,No,5238,Mid,4,2,4,5,9,0,0.46,Medium
+1737,39,Research & Development,Laboratory Technician,Yes,6472,Mid,4,3,4,9,9,0,0.087,Low
+1739,32,Sales,Sales Executive,No,9610,High,3,1,4,4,10,0,0.4,Medium
+1740,40,Sales,Manager,No,19833,High,2,2,2,21,21,0,0.654,High
+1744,45,Human Resources,Human Resources,No,9756,High,3,4,3,5,9,0,0.236,Low
+1745,30,Research & Development,Research Scientist,No,4968,Mid,1,3,4,9,10,0,0.231,Low
+1746,24,Human Resources,Human Resources,No,2145,Low,4,3,1,2,3,0,0.371,Medium
+1747,30,Human Resources,Human Resources,No,2180,Low,4,2,3,4,6,1,0.764,High
+1749,31,Sales,Sales Executive,No,8346,High,3,3,1,5,6,0,0.379,Medium
+1751,27,Research & Development,Research Scientist,No,3445,Low,4,2,3,6,6,0,0.135,Low
+1752,29,Sales,Sales Representative,No,2760,Low,2,3,2,2,2,1,0.864,High
+1753,29,Research & Development,Healthcare Representative,Yes,6294,Mid,3,4,4,3,10,0,0.475,Medium
+1754,30,Sales,Sales Executive,No,7140,High,1,3,3,7,12,0,0.298,Low
+1755,34,Research & Development,Research Scientist,Yes,2932,Low,4,3,4,5,6,0,0.174,Low
+1756,33,Sales,Sales Executive,No,5147,Mid,2,2,4,11,13,0,0.143,Low
+1757,49,Sales,Sales Executive,No,4507,Mid,4,4,4,5,8,0,0.055,Low
+1758,33,Sales,Sales Executive,Yes,8564,High,1,2,1,0,11,1,0.981,High
+1760,38,Research & Development,Laboratory Technician,No,2468,Low,2,2,3,6,9,0,0.527,Medium
+1761,31,Sales,Sales Executive,No,8161,High,3,3,1,1,10,1,0.412,Medium
+1762,29,Research & Development,Research Scientist,No,2109,Low,1,3,4,1,1,0,0.382,Medium
+1763,30,Research & Development,Healthcare Representative,No,5294,Mid,3,3,3,7,10,0,0.049,Low
+1764,32,Research & Development,Research Scientist,No,2718,Low,2,3,2,7,12,0,0.076,Low
+1766,38,Research & Development,Healthcare Representative,Yes,5811,Mid,4,3,2,1,15,0,0.622,High
+1767,43,Research & Development,Research Scientist,Yes,2437,Low,3,3,3,1,6,1,0.973,High
+1768,42,Research & Development,Laboratory Technician,No,2766,Low,2,2,2,5,7,0,0.345,Medium
+1770,55,Research & Development,Research Director,No,19038,High,1,3,3,1,34,0,0.032,Low
+1771,33,Research & Development,Research Scientist,No,3055,Low,2,2,4,9,11,0,0.039,Low
+1772,41,Research & Development,Laboratory Technician,No,2289,Low,1,3,3,5,5,0,0.158,Low
+1774,34,Sales,Sales Executive,Yes,4001,Mid,3,3,4,15,15,0,0.021,Low
+1775,53,Research & Development,Manufacturing Director,Yes,12965,High,3,2,1,3,27,0,0.118,Low
+1778,43,Human Resources,Human Resources,No,3539,Low,4,3,2,9,10,0,0.092,Low
+1779,34,Sales,Sales Executive,No,6029,Mid,4,3,4,2,6,0,0.455,Medium
+1780,21,Sales,Sales Representative,No,2679,Low,2,3,2,1,1,1,0.91,High
+1782,38,Research & Development,Laboratory Technician,No,3702,Mid,3,3,4,5,5,0,0.136,Low
+1783,22,Research & Development,Laboratory Technician,Yes,2398,Low,1,3,3,1,1,1,0.682,High
+1784,31,Sales,Sales Executive,No,5468,Mid,4,3,1,12,13,0,0.688,High
+1786,51,Research & Development,Manager,No,13116,High,3,3,1,2,15,0,0.226,Low
+1787,37,Sales,Sales Executive,No,4189,Mid,2,3,2,5,5,0,0.632,High
+1789,46,Research & Development,Research Director,Yes,19328,High,4,3,3,2,24,0,0.035,Low
+1790,36,Research & Development,Healthcare Representative,Yes,8321,High,1,3,4,12,15,0,0.468,Medium
+1792,44,Research & Development,Research Scientist,Yes,2342,Low,2,2,3,5,6,1,0.446,Medium
+1794,37,Human Resources,Human Resources,No,4071,Mid,2,2,3,10,19,0,0.228,Low
+1797,35,Sales,Sales Executive,Yes,5813,Mid,4,3,3,10,10,1,0.802,High
+1798,33,Research & Development,Research Scientist,No,3143,Low,1,3,4,10,14,0,0.228,Low
+1799,28,Research & Development,Research Scientist,No,2044,Low,4,4,3,5,5,0,0.025,Low
+1800,39,Research & Development,Research Director,No,13464,High,3,3,3,4,9,0,0.059,Low
+1801,46,Sales,Sales Executive,No,7991,High,2,3,2,2,6,0,0.761,High
+1802,40,Research & Development,Laboratory Technician,No,3377,Low,1,2,3,4,7,0,0.146,Low
+1803,42,Research & Development,Healthcare Representative,No,5538,Mid,1,2,2,0,10,0,0.111,Low
+1804,35,Research & Development,Manufacturing Director,No,5762,Mid,4,3,2,7,15,0,0.002,Low
+1805,38,Human Resources,Human Resources,No,2592,Low,2,3,1,11,13,0,0.032,Low
+1807,34,Research & Development,Laboratory Technician,No,5346,Mid,1,2,4,7,11,1,0.32,Medium
+1809,37,Research & Development,Manufacturing Director,No,4213,Mid,1,1,4,10,10,1,0.099,Low
+1812,39,Sales,Sales Executive,No,4127,Mid,4,3,3,2,7,0,0.065,Low
+1813,43,Research & Development,Research Scientist,No,2438,Low,3,2,1,3,7,0,0.399,Medium
+1814,41,Research & Development,Healthcare Representative,No,6870,High,2,1,2,3,11,0,0.374,Medium
+1815,41,Sales,Sales Executive,Yes,10447,High,3,4,3,22,23,0,0.421,Medium
+1816,30,Research & Development,Manufacturing Director,No,9667,High,3,3,1,7,9,0,0.489,Medium
+1818,26,Human Resources,Human Resources,Yes,2148,Low,2,3,4,5,6,1,0.491,Medium
+1821,46,Research & Development,Healthcare Representative,No,8926,High,2,4,4,9,13,1,0.013,Low
+1822,40,Research & Development,Healthcare Representative,No,6513,Mid,4,3,3,5,12,0,0.009,Low
+1823,34,Sales,Sales Executive,No,6799,High,3,3,2,10,10,0,0.083,Low
+1824,58,Sales,Manager,No,16291,High,2,2,2,16,37,0,0.039,Low
+1826,35,Research & Development,Laboratory Technician,No,2705,Low,3,4,2,5,6,0,0.518,Medium
+1827,47,Research & Development,Manufacturing Director,Yes,10333,High,2,3,3,22,28,0,0.717,High
+1829,40,Research & Development,Healthcare Representative,No,4448,Mid,1,3,2,7,15,0,0.136,Low
+1830,54,Research & Development,Research Scientist,No,6854,High,4,2,4,7,14,0,0.031,Low
+1833,31,Sales,Sales Executive,No,9637,High,1,3,1,3,9,0,0.593,Medium
+1834,28,Research & Development,Research Scientist,No,3591,Low,1,3,3,3,3,0,0.063,Low
+1835,38,Sales,Sales Representative,Yes,5405,Mid,4,2,2,4,20,0,0.866,High
+1836,26,Sales,Sales Executive,No,4684,Mid,4,3,3,5,5,0,0.448,Medium
+1837,58,Research & Development,Research Director,Yes,15787,High,3,3,1,2,23,0,0.406,Medium
+1839,18,Research & Development,Research Scientist,No,1514,Low,3,1,2,0,0,0,0.149,Low
+1842,31,Human Resources,Human Resources,No,2956,Low,1,3,4,1,2,1,0.22,Low
+1844,29,Human Resources,Human Resources,Yes,2335,Low,1,3,1,2,4,1,0.933,High
+1845,45,Sales,Sales Executive,No,5154,Mid,3,4,3,8,10,0,0.016,Low
+1847,36,Research & Development,Research Scientist,Yes,6962,High,2,3,4,1,15,0,0.223,Low
+1849,43,Sales,Sales Executive,No,5675,Mid,4,3,1,7,7,0,0.126,Low
+1850,27,Research & Development,Laboratory Technician,Yes,2379,Low,4,2,4,5,6,0,0.678,High
+1852,29,Research & Development,Laboratory Technician,No,3812,Mid,4,4,4,11,11,0,0.138,Low
+1853,32,Sales,Sales Executive,No,4648,Mid,4,4,4,0,4,0,0.74,High
+1854,42,Research & Development,Research Scientist,No,2936,Low,3,2,3,6,10,0,0.282,Low
+1856,47,Research & Development,Laboratory Technician,No,2105,Low,3,3,2,2,7,0,0.587,Medium
+1857,46,Research & Development,Manufacturing Director,No,8578,High,4,2,4,9,12,0,0.005,Low
+1858,28,Human Resources,Human Resources,No,2706,Low,4,3,3,3,3,0,0.043,Low
+1859,29,Research & Development,Healthcare Representative,No,6384,Mid,3,3,4,7,11,0,0.216,Low
+1860,42,Research & Development,Laboratory Technician,No,3968,Mid,3,3,4,0,8,0,0.252,Low
+1862,32,Sales,Sales Executive,Yes,9907,High,2,2,3,2,7,1,0.967,High
+1863,46,Sales,Sales Executive,No,13225,High,1,3,1,19,25,0,0.045,Low
+1864,27,Sales,Sales Representative,No,3540,Low,3,3,2,9,9,0,0.377,Medium
+1865,29,Human Resources,Human Resources,No,2804,Low,2,3,4,1,1,0,0.304,Medium
+1866,43,Research & Development,Manager,No,19392,High,3,3,1,16,21,0,0.12,Low
+1867,48,Research & Development,Research Director,No,19665,High,2,3,4,22,29,0,0.052,Low
+1868,29,Research & Development,Research Scientist,Yes,2439,Low,4,2,4,1,1,1,0.901,High
+1869,46,Sales,Sales Executive,No,7314,High,2,3,3,8,14,1,0.04,Low
+1870,27,Research & Development,Research Scientist,No,4774,Mid,1,2,4,7,8,0,0.511,Medium
+1871,39,Research & Development,Research Scientist,No,3902,Mid,4,3,4,2,7,0,0.111,Low
+1873,55,Research & Development,Research Scientist,No,2662,Low,4,4,2,5,19,0,0.157,Low
+1875,28,Sales,Sales Representative,No,2856,Low,2,3,2,1,1,0,0.332,Medium
+1876,30,Sales,Sales Representative,No,1081,Low,4,2,2,1,1,1,0.8,High
+1878,22,Research & Development,Research Scientist,Yes,2472,Low,2,3,4,1,1,1,0.878,High
+1880,36,Sales,Sales Executive,Yes,5673,Mid,3,3,2,10,10,0,0.638,High
+1881,31,Research & Development,Laboratory Technician,No,4197,Mid,3,3,2,10,10,0,0.372,Medium
+1882,34,Sales,Sales Executive,Yes,9713,High,4,3,3,5,9,0,0.481,Medium
+1883,29,Research & Development,Laboratory Technician,No,2062,Low,1,3,4,3,11,0,0.572,Medium
+1885,37,Research & Development,Research Scientist,Yes,4284,Mid,1,3,4,5,16,0,0.351,Medium
+1886,35,Research & Development,Manufacturing Director,Yes,4788,Mid,2,3,4,3,4,0,0.59,Medium
+1888,45,Research & Development,Manufacturing Director,No,5906,Mid,4,2,2,9,10,0,0.034,Low
+1890,36,Human Resources,Human Resources,No,3886,Mid,4,2,2,10,10,0,0.644,High
+1892,40,Research & Development,Manager,No,16823,High,1,3,1,19,22,0,0.165,Low
+1893,26,Research & Development,Research Scientist,Yes,2933,Low,3,2,2,1,1,0,0.746,High
+1898,27,Sales,Sales Executive,No,6500,Mid,3,2,1,8,9,0,0.111,Low
+1900,48,Research & Development,Manager,No,17174,High,4,3,4,22,24,0,0.027,Low
+1903,44,Research & Development,Healthcare Representative,No,5033,Mid,1,3,2,2,10,0,0.061,Low
+1905,34,Research & Development,Research Scientist,Yes,2307,Low,1,3,4,5,5,1,0.771,High
+1907,56,Research & Development,Laboratory Technician,No,2587,Low,4,3,1,4,5,1,0.422,Medium
+1908,36,Sales,Sales Executive,No,5507,Mid,2,1,3,4,12,0,0.645,High
+1909,41,Sales,Sales Executive,No,4393,Mid,2,3,3,5,14,0,0.183,Low
+1911,42,Research & Development,Research Director,No,13348,High,1,4,3,13,18,0,0.077,Low
+1912,31,Sales,Sales Executive,Yes,6583,High,4,3,3,5,8,0,0.236,Low
+1915,34,Sales,Sales Executive,Yes,8103,High,4,2,4,4,9,0,0.498,Medium
+1916,31,Research & Development,Laboratory Technician,No,3978,Mid,3,2,1,2,4,0,0.721,High
+1918,26,Research & Development,Laboratory Technician,No,2544,Low,4,3,3,7,8,0,0.137,Low
+1922,45,Research & Development,Healthcare Representative,No,5399,Mid,3,3,2,4,12,0,0.351,Medium
+1924,33,Sales,Sales Executive,No,5487,Mid,3,2,2,10,10,0,0.466,Medium
+1927,28,Sales,Sales Executive,Yes,6834,High,4,3,3,7,7,0,0.411,Medium
+1928,29,Sales,Sales Representative,No,1091,Low,1,3,3,1,1,1,0.973,High
+1929,39,Sales,Sales Executive,No,5736,Mid,3,3,1,3,10,0,0.271,Low
+1931,27,Research & Development,Research Scientist,No,2226,Low,2,2,2,5,6,0,0.405,Medium
+1932,34,Research & Development,Research Scientist,Yes,5747,Mid,4,3,3,15,16,0,0.706,High
+1933,28,Sales,Sales Executive,Yes,9854,High,3,3,4,2,6,1,0.728,High
+1934,47,Research & Development,Research Scientist,No,5467,Mid,2,4,3,8,16,0,0.028,Low
+1935,56,Sales,Sales Executive,No,5380,Mid,1,3,4,0,6,0,0.369,Medium
+1936,39,Research & Development,Manufacturing Director,No,5151,Mid,1,3,1,10,10,0,0.519,Medium
+1937,38,Research & Development,Research Scientist,Yes,2133,Low,2,3,4,20,20,0,0.293,Low
+1938,58,Sales,Manager,Yes,17875,High,4,2,4,1,29,0,0.132,Low
+1939,32,Research & Development,Research Scientist,Yes,2432,Low,3,3,1,4,8,1,0.849,High
+1940,38,Research & Development,Research Scientist,No,4771,Mid,4,4,2,5,10,0,0.023,Low
+1941,49,Research & Development,Research Director,No,19161,High,4,3,2,5,28,0,0.046,Low
+1943,42,Sales,Sales Executive,Yes,5087,Mid,4,3,2,0,14,0,0.482,Medium
+1944,27,Human Resources,Human Resources,No,2863,Low,2,3,1,1,1,1,0.945,High
+1945,35,Sales,Sales Executive,No,5561,Mid,1,1,2,5,6,0,0.467,Medium
+1947,28,Research & Development,Research Scientist,No,2144,Low,3,2,3,5,5,0,0.067,Low
+1948,31,Research & Development,Research Scientist,Yes,3065,Low,1,4,3,4,4,0,0.132,Low
+1949,36,Research & Development,Laboratory Technician,No,2810,Low,2,3,1,5,5,0,0.197,Low
+1950,34,Sales,Sales Executive,No,9888,High,4,2,1,14,14,0,0.738,High
+1951,34,Sales,Sales Executive,No,8628,High,3,2,4,8,9,0,0.063,Low
+1952,26,Research & Development,Laboratory Technician,No,2867,Low,1,2,3,7,8,0,0.4,Medium
+1954,29,Research & Development,Healthcare Representative,No,5373,Mid,1,2,1,5,6,0,0.179,Low
+1955,32,Research & Development,Healthcare Representative,No,6667,High,4,3,3,5,9,0,0.004,Low
+1956,31,Research & Development,Research Scientist,No,5003,Mid,1,3,4,10,10,0,0.326,Medium
+1960,28,Research & Development,Laboratory Technician,No,2367,Low,4,2,3,4,6,1,0.757,High
+1961,38,Sales,Sales Representative,No,2858,Low,1,2,1,1,20,0,0.942,High
+1962,35,Sales,Sales Executive,Yes,5204,Mid,4,3,3,10,10,0,0.107,Low
+1965,27,Sales,Sales Executive,No,4105,Mid,4,3,4,7,7,0,0.071,Low
+1966,32,Research & Development,Manufacturing Director,No,9679,High,4,3,4,1,8,0,0.356,Medium
+1967,31,Sales,Sales Executive,Yes,5617,Mid,4,3,1,10,10,1,0.71,High
+1968,53,Sales,Sales Executive,Yes,10448,High,1,2,1,2,15,1,0.971,High
+1969,54,Research & Development,Research Scientist,No,2897,Low,3,2,1,4,9,0,0.101,Low
+1970,33,Research & Development,Healthcare Representative,No,5968,Mid,3,3,4,9,9,0,0.013,Low
+1971,43,Research & Development,Healthcare Representative,No,7510,High,3,3,1,10,10,0,0.031,Low
+1972,38,Human Resources,Human Resources,Yes,2991,Low,2,3,4,6,7,0,0.765,High
+1973,55,Human Resources,Manager,Yes,19636,High,2,3,3,10,35,0,0.241,Low
+1974,31,Research & Development,Laboratory Technician,Yes,1129,Low,4,3,4,1,1,0,0.315,Medium
+1975,39,Sales,Sales Executive,No,13341,High,1,3,2,20,21,0,0.934,High
+1976,42,Research & Development,Research Scientist,No,4332,Mid,3,3,4,20,20,0,0.153,Low
+1979,31,Research & Development,Research Director,No,11031,High,3,4,3,11,13,0,0.003,Low
+1980,54,Research & Development,Manufacturing Director,Yes,4440,Mid,1,3,3,5,9,0,0.661,High
+1981,24,Research & Development,Healthcare Representative,No,4617,Mid,3,2,2,4,4,0,0.496,Medium
+1982,23,Research & Development,Laboratory Technician,No,2647,Low,4,4,4,5,5,0,0.238,Low
+1985,40,Research & Development,Laboratory Technician,No,6323,Mid,3,4,4,10,10,0,0.789,High
+1986,40,Sales,Sales Executive,No,5677,Mid,2,3,2,11,15,0,0.084,Low
+1987,25,Human Resources,Human Resources,No,2187,Low,2,3,3,2,6,0,0.527,Medium
+1989,30,Research & Development,Laboratory Technician,No,3748,Mid,2,2,4,12,12,0,0.074,Low
+1992,25,Research & Development,Laboratory Technician,Yes,3977,Mid,3,2,4,2,7,0,0.524,Medium
+1993,47,Research & Development,Healthcare Representative,No,8633,High,3,3,1,17,25,0,0.25,Low
+1994,33,Research & Development,Laboratory Technician,No,2008,Low,3,2,2,1,1,0,0.119,Low
+1995,38,Sales,Sales Executive,No,4440,Mid,2,3,4,15,16,0,0.023,Low
+1996,31,Sales,Sales Representative,No,3067,Low,3,3,1,2,3,0,0.403,Medium
+1997,38,Research & Development,Manufacturing Director,No,5321,Mid,3,3,1,8,10,0,0.626,High
+1998,42,Research & Development,Research Scientist,Yes,5410,Mid,1,2,4,4,9,0,0.757,High
+1999,41,Research & Development,Research Scientist,No,2782,Low,4,3,4,5,12,0,0.049,Low
+2000,47,Research & Development,Research Director,No,11957,High,2,1,3,13,14,0,0.001,Low
+2003,35,Research & Development,Laboratory Technician,Yes,2660,Low,3,3,4,2,5,0,0.84,High
+2007,22,Research & Development,Research Scientist,No,3375,Low,3,4,4,3,4,0,0.133,Low
+2008,35,Research & Development,Research Scientist,No,5098,Mid,3,3,2,10,10,0,0.037,Low
+2009,33,Research & Development,Healthcare Representative,Yes,4878,Mid,4,3,2,9,10,0,0.499,Medium
+2010,32,Research & Development,Laboratory Technician,No,2837,Low,2,3,3,6,6,0,0.886,High
+2012,40,Research & Development,Laboratory Technician,No,2406,Low,4,2,1,1,8,0,0.516,Medium
+2013,32,Sales,Sales Representative,No,2269,Low,2,3,2,2,3,0,0.713,High
+2014,39,Research & Development,Research Scientist,No,4108,Mid,4,3,1,7,18,0,0.276,Low
+2015,38,Research & Development,Research Director,No,13206,High,3,3,2,18,20,0,0.029,Low
+2016,32,Sales,Sales Executive,No,10422,High,4,3,3,14,14,0,0.058,Low
+2017,37,Research & Development,Research Director,Yes,13744,High,4,3,3,16,16,0,0.04,Low
+2018,25,Sales,Sales Executive,Yes,4907,Mid,3,2,1,5,6,0,0.521,Medium
+2019,52,Sales,Sales Representative,No,3482,Low,4,2,1,9,16,0,0.154,Low
+2020,44,Research & Development,Research Scientist,Yes,2436,Low,4,3,2,4,6,0,0.724,High
+2021,21,Sales,Sales Representative,Yes,2380,Low,1,3,3,2,2,0,0.96,High
+2022,39,Research & Development,Manager,No,19431,High,4,2,4,6,21,0,0.022,Low
+2023,23,Sales,Sales Representative,No,1790,Low,1,2,4,1,1,1,0.935,High
+2024,36,Sales,Sales Executive,No,7644,High,4,3,1,9,10,0,0.09,Low
+2025,36,Research & Development,Manufacturing Director,No,5131,Mid,2,3,4,4,18,0,0.038,Low
+2026,56,Research & Development,Healthcare Representative,No,6306,Mid,3,2,3,13,13,0,0.004,Low
+2027,29,Research & Development,Research Scientist,Yes,4787,Mid,4,4,1,2,4,1,0.594,Medium
+2031,42,Research & Development,Manager,No,18880,High,3,2,1,22,24,0,0.192,Low
+2032,56,Research & Development,Laboratory Technician,No,2339,Low,3,1,4,10,14,1,0.319,Medium
+2034,41,Research & Development,Manufacturing Director,No,13570,High,2,3,1,20,21,0,0.088,Low
+2035,34,Sales,Sales Executive,No,6712,High,3,3,4,8,8,0,0.053,Low
+2036,36,Sales,Sales Executive,No,5406,Mid,4,2,4,15,15,0,0.034,Low
+2037,41,Sales,Sales Executive,No,8938,High,2,3,3,5,14,0,0.03,Low
+2038,32,Research & Development,Research Scientist,No,2439,Low,1,3,4,4,4,0,0.491,Medium
+2040,35,Human Resources,Human Resources,Yes,8837,High,4,3,3,9,9,0,0.58,Medium
+2041,38,Sales,Sales Executive,No,5343,Mid,4,3,1,10,10,0,0.073,Low
+2044,50,Sales,Sales Executive,No,6728,High,3,3,2,6,12,1,0.204,Low
+2045,36,Sales,Sales Executive,No,6652,High,4,2,2,6,8,0,0.347,Medium
+2046,45,Sales,Sales Executive,No,4850,Mid,3,3,4,5,8,0,0.4,Medium
+2048,40,Research & Development,Research Scientist,No,2809,Low,3,3,3,2,8,0,0.144,Low
+2049,35,Research & Development,Healthcare Representative,Yes,5689,Mid,3,4,3,10,10,0,0.435,Medium
+2051,40,Research & Development,Research Scientist,No,2001,Low,3,3,3,5,20,0,0.029,Low
+2052,35,Research & Development,Research Scientist,No,2977,Low,4,3,3,4,4,0,0.044,Low
+2053,29,Research & Development,Laboratory Technician,Yes,4025,Mid,2,3,4,4,10,0,0.933,High
+2054,29,Research & Development,Research Scientist,No,3785,Mid,1,1,4,5,5,0,0.701,High
+2055,50,Sales,Sales Executive,Yes,10854,High,1,3,4,3,20,1,0.841,High
+2056,39,Sales,Sales Executive,No,12031,High,4,2,2,20,21,0,0.652,High
+2057,31,Research & Development,Manufacturing Director,No,9936,High,1,3,2,9,10,0,0.115,Low
+2060,26,Sales,Sales Representative,No,2966,Low,3,3,4,4,5,0,0.553,Medium
+2061,36,Research & Development,Laboratory Technician,No,2571,Low,4,3,3,5,17,0,0.198,Low
+2062,39,Research & Development,Healthcare Representative,No,9991,High,1,3,4,7,9,0,0.07,Low
+2064,27,Research & Development,Manufacturing Director,Yes,6142,Mid,2,3,2,6,6,0,0.575,Medium
+2065,49,Sales,Sales Executive,No,5390,Mid,2,2,4,9,17,0,0.076,Low
+2068,34,Research & Development,Laboratory Technician,No,4404,Mid,3,4,2,4,6,0,0.32,Medium
