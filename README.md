@@ -23,7 +23,7 @@ An interactive AutoML web application that automates the entire machine learning
 
 It's designed to demonstrate a complete ML pipeline — from data input to model deployment — and to make machine learning accessible to beginners, students, and professionals alike, without requiring advanced programming knowledge.
 
-Validated across real-world datasets spanning **healthcare, finance, retail, solar energy, and HR**, achieving an average **R² of 0.94** (peak **R² = 0.9989**).
+Validated across real-world datasets spanning **healthcare, finance, retail, solar energy, and HR**, achieving an average **R² of 0.94** (peak **R² = 0.9889**).
 
 🔗 **Live app:** [https://ml-ready-ai-bpco.onrender.com](https://ml-ready-ai-bpco.onrender.com)
 > Hosted on Render's free tier — the app may take 30–60 seconds to spin up on first load if it's been idle.
